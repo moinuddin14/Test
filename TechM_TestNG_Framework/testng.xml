@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TechM Suite1" parallel="tests" thread-count="5">
+	<test name="Sanity1">
+	<parameter name="url" value="http://citiuat1.com"></parameter>
+		<packages>
+			<package name="com.techm.*"></package>
+		</packages>
+	</test>
+</suite>

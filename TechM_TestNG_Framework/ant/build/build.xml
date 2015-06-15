@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project name="TestNG Selenium Project" basedir="." default="run">
+
+	<!--<target name="test">
+		<echo>Hello World! We are diving in selenium!</echo>
+		<echo>${basedir}</echo>
+		<echo>${user.dir}</echo>
+	</target>-->
+	
+	<property name="selenium-jar" location="C:\Selenium\workspace3\TechM_TestNG_Framework\ant\build\lib\selenium.jar"/>
+	<property name="testng-jar" location="C:\Selenium\workspace3\TechM_TestNG_Framework\ant\build\lib\testng-6.9.4.jar"/>
+	<property name="lib" location="lib"/>
+	<property name="src" location="src"/>
+	<property name="bin" location="bin"/>
+	<property name="test-output" location="test-output"/>
+
+	<target name="clean">
+		<delete dir="${lib}" />
+		<delete dir="${src}" />
+		<delete dir="${bin}" />
+		<delete dir="${test-output}" />
+	</target>
+	
+	<target name="create" depends="clean">
+		<mkdir dir="${lib}" />
+		<mkdir dir="${src}" />
+		<mkdir dir="${bin}" />
+		<mkdir dir="${test-output}" />
+	</target>
+	
+	<path id="classp">
+		<pathelement location="${selenium-jar}"/>
+		<pathelement location="${testng-jar}"/>
+		<pathelement location="${bin}"/>
+	</path>
+	
+	<target name="copy" depends="create">
+		<copy todir="${src}">
+			<fileset dir="C:\Selenium\workspace3\TechM_TestNG_Framework\src" excludes="**/lib/**" />
+		</copy>
+		<copy todir="C:\Selenium\workspace3\TechM_TestNG_Framework\ant\build\lib">
+			<fileset dir="C:\Selenium\workspace3\TechM_TestNG_Framework\src\com\lib" includes="**/*.jar"></fileset>
+		</copy>
+		
+		<copy todir=".">
+			<fileset dir="C:\Selenium\workspace3\TechM_TestNG_Framework" includes="test*.xml"></fileset>
+		</copy>
+	</target>
+
+	<target name="compile" depends="copy">
+		<echo>*****Compiling the Project*****</echo>
+		<javac classpathref="classp" srcdir="C:\Selenium\workspace3\TechM_TestNG_Framework\ant\build\src" 
+			destdir="C:\Selenium\workspace3\TechM_TestNG_Framework\ant\build\bin" 
+			includes="**/*.java"
+			includeantruntime="true">
+		</javac>				
+	</target>
+	
+	<taskdef name="Test-Ng" classpathref="classp" classname="org.testng.TestNGAntTask">
+		<classpath>
+			<pathelement location="C:\Selenium\workspace3\TechM_TestNG_Framework\src\com\lib\selenium.jar"/>
+			<pathelement location="C:\Selenium\workspace3\TechM_TestNG_Framework\src\com\lib\testng-6.9.4.jar"/>
+		</classpath>
+	</taskdef>
+	
+	<target name="run" depends="compile">
+		<Test-Ng outputdir="test-output" classpathref="classp">
+			<xmlfileset dir="." includes="test*.xml"/>
+		</Test-Ng>
+	</target>
+	
+</project>

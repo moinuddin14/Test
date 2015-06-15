@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TechM Suite2" parallel="tests" thread-count="5">
+	
+	<listeners>
+		<listener class-name="com.techm.testng.listeners.IInvokedMethodListenerInterfaceImplementation"></listener>
+	</listeners>
+	<test name="Sanity1">		
+		<packages>
+			<package name="com.techm.*"></package>
+		</packages>
+	</test>
+</suite>
