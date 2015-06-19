@@ -7,8 +7,8 @@
 		<echo>${user.dir}</echo>
 	</target>-->
 	
-	<property name="selenium-jar" location="C:\Selenium\workspace3\TechM_TestNG_Framework\ant\build\lib\selenium.jar"/>
-	<property name="testng-jar" location="C:\Selenium\workspace3\TechM_TestNG_Framework\ant\build\lib\testng-6.9.4.jar"/>
+	<property name="selenium-jar" location="C:\Selenium\workspace3\Test\TechM_TestNG_Framework\ant\build\lib\selenium.jar"/>
+	<property name="testng-jar" location="C:\Selenium\workspace3\Test\TechM_TestNG_Framework\ant\build\lib\testng-6.9.4.jar"/>
 	<property name="lib" location="lib"/>
 	<property name="src" location="src"/>
 	<property name="bin" location="bin"/>
@@ -36,21 +36,21 @@
 	
 	<target name="copy" depends="create">
 		<copy todir="${src}">
-			<fileset dir="C:\Selenium\workspace3\TechM_TestNG_Framework\src" excludes="**/lib/**" />
+			<fileset dir="C:\Selenium\workspace3\Test\TechM_TestNG_Framework\src" excludes="**/lib/**" />
 		</copy>
-		<copy todir="C:\Selenium\workspace3\TechM_TestNG_Framework\ant\build\lib">
-			<fileset dir="C:\Selenium\workspace3\TechM_TestNG_Framework\src\com\lib" includes="**/*.jar"></fileset>
+		<copy todir="C:\Selenium\workspace3\Test\TechM_TestNG_Framework\ant\build\lib">
+			<fileset dir="C:\Selenium\workspace3\Test\TechM_TestNG_Framework\src\com\lib" includes="**/*.jar"></fileset>
 		</copy>
 		
 		<copy todir=".">
-			<fileset dir="C:\Selenium\workspace3\TechM_TestNG_Framework" includes="test*.xml"></fileset>
+			<fileset dir="C:\Selenium\workspace3\Test\TechM_TestNG_Framework" includes="test*.xml"></fileset>
 		</copy>
 	</target>
 
 	<target name="compile" depends="copy">
 		<echo>*****Compiling the Project*****</echo>
-		<javac classpathref="classp" srcdir="C:\Selenium\workspace3\TechM_TestNG_Framework\ant\build\src" 
-			destdir="C:\Selenium\workspace3\TechM_TestNG_Framework\ant\build\bin" 
+		<javac classpathref="classp" srcdir="C:\Selenium\workspace3\Test\TechM_TestNG_Framework\ant\build\src" 
+			destdir="C:\Selenium\workspace3\Test\TechM_TestNG_Framework\ant\build\bin" 
 			includes="**/*.java"
 			includeantruntime="true">
 		</javac>				
@@ -58,8 +58,8 @@
 	
 	<taskdef name="Test-Ng" classpathref="classp" classname="org.testng.TestNGAntTask">
 		<classpath>
-			<pathelement location="C:\Selenium\workspace3\TechM_TestNG_Framework\src\com\lib\selenium.jar"/>
-			<pathelement location="C:\Selenium\workspace3\TechM_TestNG_Framework\src\com\lib\testng-6.9.4.jar"/>
+			<pathelement location="C:\Selenium\workspace3\Test\TechM_TestNG_Framework\src\com\lib\selenium.jar"/>
+			<pathelement location="C:\Selenium\workspace3\Test\TechM_TestNG_Framework\src\com\lib\testng-6.9.4.jar"/>
 		</classpath>
 	</taskdef>
 	
