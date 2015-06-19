@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TechM Suite1]" parallel="tests">
+  <parameter name="url" value="http://citiuat1.com"/>
+  <test name="Sanity1(failed)" parallel="tests">
+    <parameter name="url" value="http://citiuat1.com"/>
+    <classes>
+      <class name="com.techm.testng.TestNgClass">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="beforeClassMethod"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.techm.testng.TestNgClass -->
+      <class name="com.techm.testng.listeners.ITestResultClass">
+        <methods>
+          <include name="afterMethodITestResult"/>
+          <include name="bar"/>
+        </methods>
+      </class> <!-- com.techm.testng.listeners.ITestResultClass -->
+      <class name="com.techm.testng.TestCaseTwo">
+        <methods>
+          <include name="resultMethod"/>
+          <include name="testCaseA"/>
+        </methods>
+      </class> <!-- com.techm.testng.TestCaseTwo -->
+      <class name="com.techm.testng.DataProviderClass1">
+        <methods>
+          <include name="testCaseTwo" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.techm.testng.DataProviderClass1 -->
+      <class name="com.techm.practise.ITestResultClass">
+        <methods>
+          <include name="resultMethod"/>
+          <include name="testCaseA"/>
+        </methods>
+      </class> <!-- com.techm.practise.ITestResultClass -->
+    </classes>
+  </test> <!-- Sanity1(failed) -->
+</suite> <!-- Failed suite [TechM Suite1] -->
