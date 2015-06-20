@@ -1,180 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="11" total="112" passed="101">
+<testng-results skipped="0" failed="11" total="114" passed="103">
   <reporter-output>
   </reporter-output>
-  <suite name="TechM Suite1" duration-ms="49885" started-at="2015-06-19T17:13:00Z" finished-at="2015-06-19T17:13:50Z">
+  <suite name="TechM Suite1" duration-ms="49989" started-at="2015-06-19T17:55:22Z" finished-at="2015-06-19T17:56:12Z">
     <groups>
       <group name="A">
-        <method signature="TestNgClassDependsOnMethods.login()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@2bbf180e]" name="login" class="com.techm.testng.TestNgClassDependsOnMethods"/>
-        <method signature="TestNgClassDependsOnMethods.payment()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@2bbf180e]" name="payment" class="com.techm.testng.TestNgClassDependsOnMethods"/>
-        <method signature="TestNgClassDependsOnMethods.pop$$()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@2bbf180e]" name="pop$$" class="com.techm.testng.TestNgClassDependsOnMethods"/>
+        <method signature="TestNgClassDependsOnMethods.login()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@1a04f701]" name="login" class="com.techm.testng.TestNgClassDependsOnMethods"/>
+        <method signature="TestNgClassDependsOnMethods.payment()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@1a04f701]" name="payment" class="com.techm.testng.TestNgClassDependsOnMethods"/>
+        <method signature="TestNgClassDependsOnMethods.pop$$()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@1a04f701]" name="pop$$" class="com.techm.testng.TestNgClassDependsOnMethods"/>
       </group> <!-- A -->
       <group name="regression">
-        <method signature="TestNGClassPriority.testCaseB()[pri:0, instance:com.techm.testng.TestNGClassPriority@77be656f]" name="testCaseB" class="com.techm.testng.TestNGClassPriority"/>
-        <method signature="TestNGClassPriority.testCaseD()[pri:0, instance:com.techm.testng.TestNGClassPriority@77be656f]" name="testCaseD" class="com.techm.testng.TestNGClassPriority"/>
-        <method signature="TestNGClassPriority.testCaseE()[pri:0, instance:com.techm.testng.TestNGClassPriority@77be656f]" name="testCaseE" class="com.techm.testng.TestNGClassPriority"/>
+        <method signature="TestNGClassPriority.testCaseB()[pri:0, instance:com.techm.testng.TestNGClassPriority@d4342c2]" name="testCaseB" class="com.techm.testng.TestNGClassPriority"/>
+        <method signature="TestNGClassPriority.testCaseD()[pri:0, instance:com.techm.testng.TestNGClassPriority@d4342c2]" name="testCaseD" class="com.techm.testng.TestNGClassPriority"/>
+        <method signature="TestNGClassPriority.testCaseE()[pri:0, instance:com.techm.testng.TestNGClassPriority@d4342c2]" name="testCaseE" class="com.techm.testng.TestNGClassPriority"/>
       </group> <!-- regression -->
       <group name="Regression">
-        <method signature="TestNgGroupsClass.groupsMethod2()[pri:0, instance:com.techm.testng.TestNgGroupsClass@19dc67c2]" name="groupsMethod2" class="com.techm.testng.TestNgGroupsClass"/>
-        <method signature="TestNgGroupsClass.groupsMethod3()[pri:0, instance:com.techm.testng.TestNgGroupsClass@19dc67c2]" name="groupsMethod3" class="com.techm.testng.TestNgGroupsClass"/>
-        <method signature="TestNgGroupsClass.groupsMethod4()[pri:0, instance:com.techm.testng.TestNgGroupsClass@19dc67c2]" name="groupsMethod4" class="com.techm.testng.TestNgGroupsClass"/>
+        <method signature="TestNgGroupsClass.groupsMethod2()[pri:0, instance:com.techm.testng.TestNgGroupsClass@77847718]" name="groupsMethod2" class="com.techm.testng.TestNgGroupsClass"/>
+        <method signature="TestNgGroupsClass.groupsMethod3()[pri:0, instance:com.techm.testng.TestNgGroupsClass@77847718]" name="groupsMethod3" class="com.techm.testng.TestNgGroupsClass"/>
+        <method signature="TestNgGroupsClass.groupsMethod4()[pri:0, instance:com.techm.testng.TestNgGroupsClass@77847718]" name="groupsMethod4" class="com.techm.testng.TestNgGroupsClass"/>
       </group> <!-- Regression -->
       <group name="sanity">
-        <method signature="TestNGClassPriority.testCaseA()[pri:0, instance:com.techm.testng.TestNGClassPriority@77be656f]" name="testCaseA" class="com.techm.testng.TestNGClassPriority"/>
-        <method signature="TestNGClassPriority.testCaseC()[pri:0, instance:com.techm.testng.TestNGClassPriority@77be656f]" name="testCaseC" class="com.techm.testng.TestNGClassPriority"/>
-        <method signature="TestNgGroupsClass.groupsMethod1()[pri:0, instance:com.techm.testng.TestNgGroupsClass@19dc67c2]" name="groupsMethod1" class="com.techm.testng.TestNgGroupsClass"/>
-        <method signature="TestNgGroupsClass.groupsMethod5()[pri:0, instance:com.techm.testng.TestNgGroupsClass@19dc67c2]" name="groupsMethod5" class="com.techm.testng.TestNgGroupsClass"/>
-        <method signature="TestNGClassPriority.testCaseF()[pri:0, instance:com.techm.testng.TestNGClassPriority@77be656f]" name="testCaseF" class="com.techm.testng.TestNGClassPriority"/>
-        <method signature="TestNGClassPriority.testCaseG()[pri:0, instance:com.techm.testng.TestNGClassPriority@77be656f]" name="testCaseG" class="com.techm.testng.TestNGClassPriority"/>
+        <method signature="TestNGClassPriority.testCaseA()[pri:0, instance:com.techm.testng.TestNGClassPriority@d4342c2]" name="testCaseA" class="com.techm.testng.TestNGClassPriority"/>
+        <method signature="TestNGClassPriority.testCaseC()[pri:0, instance:com.techm.testng.TestNGClassPriority@d4342c2]" name="testCaseC" class="com.techm.testng.TestNGClassPriority"/>
+        <method signature="TestNGClassPriority.testCaseF()[pri:0, instance:com.techm.testng.TestNGClassPriority@d4342c2]" name="testCaseF" class="com.techm.testng.TestNGClassPriority"/>
+        <method signature="TestNGClassPriority.testCaseG()[pri:0, instance:com.techm.testng.TestNGClassPriority@d4342c2]" name="testCaseG" class="com.techm.testng.TestNGClassPriority"/>
+        <method signature="TestNgGroupsClass.groupsMethod1()[pri:0, instance:com.techm.testng.TestNgGroupsClass@77847718]" name="groupsMethod1" class="com.techm.testng.TestNgGroupsClass"/>
+        <method signature="TestNgGroupsClass.groupsMethod5()[pri:0, instance:com.techm.testng.TestNgGroupsClass@77847718]" name="groupsMethod5" class="com.techm.testng.TestNgGroupsClass"/>
       </group> <!-- sanity -->
     </groups>
-    <test name="Sanity1" duration-ms="49885" started-at="2015-06-19T17:13:00Z" finished-at="2015-06-19T17:13:50Z">
+    <test name="Sanity1" duration-ms="49989" started-at="2015-06-19T17:55:22Z" finished-at="2015-06-19T17:56:12Z">
       <class name="com.techm.practise.ImplementingITestListener">
-        <test-method status="PASS" signature="foo()[pri:0, instance:com.techm.practise.ImplementingITestListener@221af3c0]" name="foo" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="foo()[pri:0, instance:com.techm.practise.ImplementingITestListener@2bbf180e]" name="foo" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- foo -->
-        <test-method status="PASS" signature="coke()[pri:0, instance:com.techm.practise.ImplementingITestListener@221af3c0]" name="coke" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- coke -->
-        <test-method status="PASS" signature="wine()[pri:0, instance:com.techm.practise.ImplementingITestListener@221af3c0]" name="wine" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="wine()[pri:0, instance:com.techm.practise.ImplementingITestListener@2bbf180e]" name="wine" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wine -->
-        <test-method status="PASS" signature="bar()[pri:0, instance:com.techm.practise.ImplementingITestListener@221af3c0]" name="bar" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="coke()[pri:0, instance:com.techm.practise.ImplementingITestListener@2bbf180e]" name="coke" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coke -->
+        <test-method status="PASS" signature="bar()[pri:0, instance:com.techm.practise.ImplementingITestListener@2bbf180e]" name="bar" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bar -->
       </class> <!-- com.techm.practise.ImplementingITestListener -->
       <class name="com.techm.testng.listeners.IInvokedMethodListenerInterfaceImplementation">
-        <test-method status="PASS" signature="f()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerInterfaceImplementation@6aaceffd]" name="f" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerInterfaceImplementation@3af9c5b7]" name="f" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
       </class> <!-- com.techm.testng.listeners.IInvokedMethodListenerInterfaceImplementation -->
       <class name="com.techm.testng.listeners.IInvokedMethodListenerClass">
-        <test-method status="PASS" signature="testCaseFive()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerClass@419c5f1a]" name="testCaseFive" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="testCaseFive()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerClass@7f3b84b8]" name="testCaseFive" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseFive -->
-        <test-method status="PASS" signature="testCaseFour()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerClass@419c5f1a]" name="testCaseFour" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="testCaseFour()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerClass@7f3b84b8]" name="testCaseFour" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseFour -->
-        <test-method status="PASS" signature="testCaseThree()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerClass@419c5f1a]" name="testCaseThree" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseThree -->
-        <test-method status="PASS" signature="testCaseTwo()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerClass@419c5f1a]" name="testCaseTwo" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseTwo -->
-        <test-method status="PASS" signature="testCaseOne()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerClass@419c5f1a]" name="testCaseOne" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="testCaseOne()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerClass@7f3b84b8]" name="testCaseOne" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseOne -->
-        <test-method status="PASS" signature="testCaseSix()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerClass@419c5f1a]" name="testCaseSix" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="testCaseTwo()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerClass@7f3b84b8]" name="testCaseTwo" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseTwo -->
+        <test-method status="PASS" signature="testCaseSix()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerClass@7f3b84b8]" name="testCaseSix" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseSix -->
+        <test-method status="PASS" signature="testCaseThree()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerClass@7f3b84b8]" name="testCaseThree" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseThree -->
       </class> <!-- com.techm.testng.listeners.IInvokedMethodListenerClass -->
       <class name="com.techm.testng.SampleTest">
-        <test-method status="PASS" signature="helloWorld()[pri:0, instance:com.techm.testng.SampleTest@d4342c2]" name="helloWorld" duration-ms="0" started-at="2015-06-19T12:13:45Z" finished-at="2015-06-19T12:13:45Z">
+        <test-method status="PASS" signature="helloWorld()[pri:0, instance:com.techm.testng.SampleTest@57a3af25]" name="helloWorld" duration-ms="0" started-at="2015-06-19T12:56:07Z" finished-at="2015-06-19T12:56:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- helloWorld -->
       </class> <!-- com.techm.testng.SampleTest -->
       <class name="com.techm.testng.TestCaseThree">
-        <test-method status="PASS" signature="testMethodThree()[pri:0, instance:com.techm.testng.TestCaseThree@163e4e87]" name="testMethodThree" duration-ms="0" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
+        <test-method status="PASS" signature="testMethodThree()[pri:0, instance:com.techm.testng.TestCaseThree@10aa41f2]" name="testMethodThree" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethodThree -->
       </class> <!-- com.techm.testng.TestCaseThree -->
       <class name="com.techm.testng.TestNgGroupsClass">
-        <test-method status="PASS" signature="groupsMethod1()[pri:0, instance:com.techm.testng.TestNgGroupsClass@19dc67c2]" name="groupsMethod1" duration-ms="0" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- groupsMethod1 -->
-        <test-method status="PASS" signature="groupsMethod3()[pri:0, instance:com.techm.testng.TestNgGroupsClass@19dc67c2]" name="groupsMethod3" duration-ms="0" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
+        <test-method status="PASS" signature="groupsMethod3()[pri:0, instance:com.techm.testng.TestNgGroupsClass@77847718]" name="groupsMethod3" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- groupsMethod3 -->
-        <test-method status="PASS" signature="groupsMethod4()[pri:0, instance:com.techm.testng.TestNgGroupsClass@19dc67c2]" name="groupsMethod4" duration-ms="0" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- groupsMethod4 -->
-        <test-method status="PASS" signature="groupsMethod2()[pri:0, instance:com.techm.testng.TestNgGroupsClass@19dc67c2]" name="groupsMethod2" duration-ms="0" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
+        <test-method status="PASS" signature="groupsMethod2()[pri:0, instance:com.techm.testng.TestNgGroupsClass@77847718]" name="groupsMethod2" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- groupsMethod2 -->
-        <test-method status="PASS" signature="groupsMethod5()[pri:0, instance:com.techm.testng.TestNgGroupsClass@19dc67c2]" name="groupsMethod5" duration-ms="0" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
+        <test-method status="PASS" signature="groupsMethod1()[pri:0, instance:com.techm.testng.TestNgGroupsClass@77847718]" name="groupsMethod1" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groupsMethod1 -->
+        <test-method status="PASS" signature="groupsMethod5()[pri:0, instance:com.techm.testng.TestNgGroupsClass@77847718]" name="groupsMethod5" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- groupsMethod5 -->
+        <test-method status="PASS" signature="groupsMethod4()[pri:0, instance:com.techm.testng.TestNgGroupsClass@77847718]" name="groupsMethod4" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groupsMethod4 -->
       </class> <!-- com.techm.testng.TestNgGroupsClass -->
       <class name="com.techm.practise.ITestListenerClass">
-        <test-method status="PASS" signature="f()[pri:0, instance:com.techm.practise.ITestListenerClass@10aa41f2]" name="f" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.techm.practise.ITestListenerClass@ed7f8b4]" name="f" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
       </class> <!-- com.techm.practise.ITestListenerClass -->
-      <class name="com.techm.testng.TestNGClassPriority">
-        <test-method status="PASS" signature="testCaseA()[pri:0, instance:com.techm.testng.TestNGClassPriority@77be656f]" name="testCaseA" duration-ms="0" started-at="2015-06-19T12:13:50Z" description="A Description about Test Case A" finished-at="2015-06-19T12:13:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseA -->
-        <test-method status="PASS" signature="testCaseG()[pri:0, instance:com.techm.testng.TestNGClassPriority@77be656f]" name="testCaseG" duration-ms="0" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseG -->
-        <test-method status="PASS" signature="testCaseF()[pri:0, instance:com.techm.testng.TestNGClassPriority@77be656f]" name="testCaseF" duration-ms="0" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseF -->
-        <test-method status="PASS" signature="testCaseE()[pri:0, instance:com.techm.testng.TestNGClassPriority@77be656f]" name="testCaseE" duration-ms="0" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseE -->
-        <test-method status="PASS" signature="testCaseD()[pri:0, instance:com.techm.testng.TestNGClassPriority@77be656f]" name="testCaseD" duration-ms="0" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseD -->
-        <test-method status="PASS" signature="testCaseB()[pri:0, instance:com.techm.testng.TestNGClassPriority@77be656f]" name="testCaseB" duration-ms="0" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseB -->
-        <test-method status="PASS" signature="testCaseC()[pri:0, instance:com.techm.testng.TestNGClassPriority@77be656f]" name="testCaseC" duration-ms="0" depends-on-groups="regression" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseC -->
-      </class> <!-- com.techm.testng.TestNGClassPriority -->
       <class name="com.techm.testng.TestNgClassDependsOnMethods">
-        <test-method status="PASS" signature="login()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@2bbf180e]" name="login" duration-ms="0" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="payment()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@2bbf180e]" name="payment" duration-ms="0" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
+        <test-method status="PASS" signature="payment()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@1a04f701]" name="payment" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- payment -->
-        <test-method status="PASS" signature="pop$$()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@2bbf180e]" name="pop$$" duration-ms="0" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@1a04f701]" name="login" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="pop$$()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@1a04f701]" name="pop$$" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pop$$ -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@2bbf180e]" name="logout" duration-ms="0" started-at="2015-06-19T12:13:50Z" depends-on-methods="com.techm.testng.TestNgClassDependsOnMethods.payment, com.techm.testng.TestNgClassDependsOnMethods.login, com.techm.testng.TestNgClassDependsOnMethods.pop$$" finished-at="2015-06-19T12:13:50Z">
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@1a04f701]" name="logout" duration-ms="0" started-at="2015-06-19T12:56:12Z" depends-on-methods="com.techm.testng.TestNgClassDependsOnMethods.payment, com.techm.testng.TestNgClassDependsOnMethods.login, com.techm.testng.TestNgClassDependsOnMethods.pop$$" finished-at="2015-06-19T12:56:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
       </class> <!-- com.techm.testng.TestNgClassDependsOnMethods -->
+      <class name="com.techm.testng.TestNGClassPriority">
+        <test-method status="PASS" signature="testCaseD()[pri:0, instance:com.techm.testng.TestNGClassPriority@d4342c2]" name="testCaseD" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseD -->
+        <test-method status="PASS" signature="testCaseE()[pri:0, instance:com.techm.testng.TestNGClassPriority@d4342c2]" name="testCaseE" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseE -->
+        <test-method status="PASS" signature="testCaseB()[pri:0, instance:com.techm.testng.TestNGClassPriority@d4342c2]" name="testCaseB" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseB -->
+        <test-method status="PASS" signature="testCaseA()[pri:0, instance:com.techm.testng.TestNGClassPriority@d4342c2]" name="testCaseA" duration-ms="0" started-at="2015-06-19T12:56:12Z" description="A Description about Test Case A" finished-at="2015-06-19T12:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseA -->
+        <test-method status="PASS" signature="testCaseG()[pri:0, instance:com.techm.testng.TestNGClassPriority@d4342c2]" name="testCaseG" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseG -->
+        <test-method status="PASS" signature="testCaseF()[pri:0, instance:com.techm.testng.TestNGClassPriority@d4342c2]" name="testCaseF" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseF -->
+        <test-method status="PASS" signature="testCaseC()[pri:0, instance:com.techm.testng.TestNGClassPriority@d4342c2]" name="testCaseC" duration-ms="0" depends-on-groups="regression" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseC -->
+      </class> <!-- com.techm.testng.TestNGClassPriority -->
+      <class name="com.techm.testng.NewClass">
+        <test-method status="PASS" signature="newClass()[pri:0, instance:com.techm.testng.NewClass@37271612]" name="newClass" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newClass -->
+      </class> <!-- com.techm.testng.NewClass -->
       <class name="com.techm.testng.TestCaseOne">
-        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:com.techm.testng.TestCaseOne@12b0404f]" name="testMethodOne" duration-ms="5000" started-at="2015-06-19T12:13:45Z" finished-at="2015-06-19T12:13:50Z">
+        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:com.techm.testng.TestCaseOne@158d2680]" name="testMethodOne" duration-ms="5001" started-at="2015-06-19T12:56:07Z" finished-at="2015-06-19T12:56:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethodOne -->
       </class> <!-- com.techm.testng.TestCaseOne -->
       <class name="com.techm.practise.ITestResultClass">
-        <test-method status="FAIL" signature="testCaseA()[pri:0, instance:com.techm.practise.ITestResultClass@62bd765]" name="testCaseA" duration-ms="1" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="FAIL" signature="testCaseA()[pri:0, instance:com.techm.practise.ITestResultClass@163e4e87]" name="testCaseA" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Failing the test case A]]>
@@ -209,97 +215,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseA -->
-        <test-method status="PASS" signature="resultMethod(org.testng.ITestResult)[pri:0, instance:com.techm.practise.ITestResultClass@62bd765]" name="resultMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="resultMethod(org.testng.ITestResult)[pri:0, instance:com.techm.practise.ITestResultClass@163e4e87]" name="resultMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testCaseB status=SUCCESS method=ITestResultClass.testCaseB()[pri:0, instance:com.techm.practise.ITestResultClass@62bd765] output={null}]]]>
+                <![CDATA[[TestResult name=testCaseB status=SUCCESS method=ITestResultClass.testCaseB()[pri:0, instance:com.techm.practise.ITestResultClass@163e4e87] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resultMethod -->
-        <test-method status="PASS" signature="resultMethod(org.testng.ITestResult)[pri:0, instance:com.techm.practise.ITestResultClass@62bd765]" name="resultMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="resultMethod(org.testng.ITestResult)[pri:0, instance:com.techm.practise.ITestResultClass@163e4e87]" name="resultMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testCaseA status=FAILURE method=ITestResultClass.testCaseA()[pri:0, instance:com.techm.practise.ITestResultClass@62bd765] output={null}]]]>
+                <![CDATA[[TestResult name=testCaseA status=FAILURE method=ITestResultClass.testCaseA()[pri:0, instance:com.techm.practise.ITestResultClass@163e4e87] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resultMethod -->
-        <test-method status="PASS" signature="testCaseB()[pri:0, instance:com.techm.practise.ITestResultClass@62bd765]" name="testCaseB" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="testCaseB()[pri:0, instance:com.techm.practise.ITestResultClass@163e4e87]" name="testCaseB" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseB -->
       </class> <!-- com.techm.practise.ITestResultClass -->
       <class name="com.techm.testng.TestNGImpClass">
-        <test-method status="PASS" signature="foo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.TestNGImpClass@56de5251]" name="foo" duration-ms="0" started-at="2015-06-19T12:13:50Z" data-provider="dataSpecial" finished-at="2015-06-19T12:13:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user00]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pass00]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[sq100]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[sq200]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[sq300]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- foo -->
-        <test-method status="PASS" signature="foo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.TestNGImpClass@56de5251]" name="foo" duration-ms="0" started-at="2015-06-19T12:13:50Z" data-provider="dataSpecial" finished-at="2015-06-19T12:13:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user22]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pass22]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[sq122]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[sq222]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[sq322]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- foo -->
-        <test-method status="PASS" signature="foo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.TestNGImpClass@56de5251]" name="foo" duration-ms="0" started-at="2015-06-19T12:13:50Z" data-provider="dataSpecial" finished-at="2015-06-19T12:13:50Z">
+        <test-method status="PASS" signature="foo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.TestNGImpClass@4e91d63f]" name="foo" duration-ms="0" started-at="2015-06-19T12:56:12Z" data-provider="dataSpecial" finished-at="2015-06-19T12:56:12Z">
           <params>
             <param index="0">
               <value>
@@ -330,38 +274,38 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- foo -->
-        <test-method status="PASS" signature="foo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.TestNGImpClass@56de5251]" name="foo" duration-ms="0" started-at="2015-06-19T12:13:50Z" data-provider="dataSpecial" finished-at="2015-06-19T12:13:50Z">
+        <test-method status="PASS" signature="foo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.TestNGImpClass@4e91d63f]" name="foo" duration-ms="0" started-at="2015-06-19T12:56:12Z" data-provider="dataSpecial" finished-at="2015-06-19T12:56:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[user33]]>
+                <![CDATA[user22]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[pass33]]>
+                <![CDATA[pass22]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[sq133]]>
+                <![CDATA[sq122]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[sq233]]>
+                <![CDATA[sq222]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[sq333]]>
+                <![CDATA[sq322]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- foo -->
-        <test-method status="PASS" signature="foo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.TestNGImpClass@56de5251]" name="foo" duration-ms="55" started-at="2015-06-19T12:13:50Z" data-provider="dataSpecial" finished-at="2015-06-19T12:13:50Z">
+        <test-method status="PASS" signature="foo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.TestNGImpClass@4e91d63f]" name="foo" duration-ms="5" started-at="2015-06-19T12:56:12Z" data-provider="dataSpecial" finished-at="2015-06-19T12:56:12Z">
           <params>
             <param index="0">
               <value>
@@ -392,41 +336,71 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- foo -->
+        <test-method status="PASS" signature="foo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.TestNGImpClass@4e91d63f]" name="foo" duration-ms="0" started-at="2015-06-19T12:56:12Z" data-provider="dataSpecial" finished-at="2015-06-19T12:56:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user00]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass00]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sq100]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sq200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sq300]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- foo -->
+        <test-method status="PASS" signature="foo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.TestNGImpClass@4e91d63f]" name="foo" duration-ms="0" started-at="2015-06-19T12:56:12Z" data-provider="dataSpecial" finished-at="2015-06-19T12:56:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user33]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass33]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sq133]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sq233]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sq333]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- foo -->
       </class> <!-- com.techm.testng.TestNGImpClass -->
       <class name="com.techm.testng.DataProviderClassName">
-        <test-method status="PASS" signature="loginTestCase0(java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClassName@646be2c3]" name="loginTestCase0" duration-ms="0" started-at="2015-06-19T12:13:00Z" data-provider="dataProviderMethod" finished-at="2015-06-19T12:13:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pass1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTestCase0 -->
-        <test-method status="PASS" signature="loginTestCase0(java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClassName@646be2c3]" name="loginTestCase0" duration-ms="0" started-at="2015-06-19T12:13:00Z" data-provider="dataProviderMethod" finished-at="2015-06-19T12:13:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pass0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTestCase0 -->
-        <test-method status="PASS" signature="loginTestCase0(java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClassName@646be2c3]" name="loginTestCase0" duration-ms="0" started-at="2015-06-19T12:13:00Z" data-provider="dataProviderMethod" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="loginTestCase0(java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClassName@43301423]" name="loginTestCase0" duration-ms="0" started-at="2015-06-19T12:55:22Z" data-provider="dataProviderMethod" finished-at="2015-06-19T12:55:22Z">
           <params>
             <param index="0">
               <value>
@@ -442,9 +416,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCase0 -->
+        <test-method status="PASS" signature="loginTestCase0(java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClassName@43301423]" name="loginTestCase0" duration-ms="0" started-at="2015-06-19T12:55:22Z" data-provider="dataProviderMethod" finished-at="2015-06-19T12:55:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase0 -->
+        <test-method status="PASS" signature="loginTestCase0(java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClassName@43301423]" name="loginTestCase0" duration-ms="0" started-at="2015-06-19T12:55:22Z" data-provider="dataProviderMethod" finished-at="2015-06-19T12:55:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase0 -->
       </class> <!-- com.techm.testng.DataProviderClassName -->
       <class name="com.techm.testng.ParameterClass">
-        <test-method status="PASS" signature="paramterMethod(java.lang.String)[pri:0, instance:com.techm.testng.ParameterClass@c86b9e3]" name="paramterMethod" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="paramterMethod(java.lang.String)[pri:0, instance:com.techm.testng.ParameterClass@646be2c3]" name="paramterMethod" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <params>
             <param index="0">
               <value>
@@ -457,22 +463,48 @@
         </test-method> <!-- paramterMethod -->
       </class> <!-- com.techm.testng.ParameterClass -->
       <class name="com.techm.testng.TestCaseTwo">
-        <test-method status="PASS" signature="resultMethod(org.testng.ITestResult)[pri:0, instance:com.techm.testng.TestCaseTwo@7f3b84b8]" name="resultMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
+        <test-method status="PASS" signature="testMethodTwo()[pri:0, instance:com.techm.testng.TestCaseTwo@797badd3]" name="testMethodTwo" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodTwo -->
+        <test-method status="PASS" signature="resultMethod(org.testng.ITestResult)[pri:0, instance:com.techm.testng.TestCaseTwo@797badd3]" name="resultMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testCaseA status=FAILURE method=ITestResultClass.testCaseA()[pri:0, instance:com.techm.testng.TestCaseTwo@7f3b84b8] output={null}]]]>
+                <![CDATA[[TestResult name=testMethodTwo status=SUCCESS method=TestCaseTwo.testMethodTwo()[pri:0, instance:com.techm.testng.TestCaseTwo@797badd3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resultMethod -->
-        <test-method status="PASS" signature="testCaseB()[pri:0, instance:com.techm.testng.TestCaseTwo@7f3b84b8]" name="testCaseB" duration-ms="1" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
+        <test-method status="PASS" signature="resultMethod(org.testng.ITestResult)[pri:0, instance:com.techm.testng.TestCaseTwo@797badd3]" name="resultMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCaseB status=SUCCESS method=ITestResultClass.testCaseB()[pri:0, instance:com.techm.testng.TestCaseTwo@797badd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultMethod -->
+        <test-method status="PASS" signature="testCaseB()[pri:0, instance:com.techm.testng.TestCaseTwo@797badd3]" name="testCaseB" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseB -->
-        <test-method status="FAIL" signature="testCaseA()[pri:0, instance:com.techm.testng.TestCaseTwo@7f3b84b8]" name="testCaseA" duration-ms="0" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
+        <test-method status="PASS" signature="resultMethod(org.testng.ITestResult)[pri:0, instance:com.techm.testng.TestCaseTwo@797badd3]" name="resultMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCaseA status=FAILURE method=ITestResultClass.testCaseA()[pri:0, instance:com.techm.testng.TestCaseTwo@797badd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultMethod -->
+        <test-method status="FAIL" signature="testCaseA()[pri:0, instance:com.techm.testng.TestCaseTwo@797badd3]" name="testCaseA" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Failing the test case A]]>
@@ -507,35 +539,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseA -->
-        <test-method status="PASS" signature="resultMethod(org.testng.ITestResult)[pri:0, instance:com.techm.testng.TestCaseTwo@7f3b84b8]" name="resultMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testCaseB status=SUCCESS method=ITestResultClass.testCaseB()[pri:0, instance:com.techm.testng.TestCaseTwo@7f3b84b8] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resultMethod -->
-        <test-method status="PASS" signature="testMethodTwo()[pri:0, instance:com.techm.testng.TestCaseTwo@7f3b84b8]" name="testMethodTwo" duration-ms="0" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethodTwo -->
-        <test-method status="PASS" signature="resultMethod(org.testng.ITestResult)[pri:0, instance:com.techm.testng.TestCaseTwo@7f3b84b8]" name="resultMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testMethodTwo status=SUCCESS method=TestCaseTwo.testMethodTwo()[pri:0, instance:com.techm.testng.TestCaseTwo@7f3b84b8] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resultMethod -->
       </class> <!-- com.techm.testng.TestCaseTwo -->
       <class name="com.techm.testng.listeners.ITestResultClass">
-        <test-method status="FAIL" signature="bar()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@769e7ee8]" name="bar" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="coke()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@2b662a77]" name="coke" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coke -->
+        <test-method status="PASS" signature="afterMethodITestResult(org.testng.ITestResult)[pri:0, instance:com.techm.testng.listeners.ITestResultClass@2b662a77]" name="afterMethodITestResult" is-config="true" duration-ms="1" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=coke status=SUCCESS method=ITestResultClass.coke()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@2b662a77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodITestResult -->
+        <test-method status="PASS" signature="afterMethodITestResult(org.testng.ITestResult)[pri:0, instance:com.techm.testng.listeners.ITestResultClass@2b662a77]" name="afterMethodITestResult" is-config="true" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bar status=FAILURE method=ITestResultClass.bar()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@2b662a77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodITestResult -->
+        <test-method status="FAIL" signature="bar()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@2b662a77]" name="bar" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Method bar is a failure :( ]]>
@@ -570,71 +602,45 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bar -->
-        <test-method status="PASS" signature="afterMethodITestResult(org.testng.ITestResult)[pri:0, instance:com.techm.testng.listeners.ITestResultClass@769e7ee8]" name="afterMethodITestResult" is-config="true" duration-ms="1" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=bar status=FAILURE method=ITestResultClass.bar()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@769e7ee8] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodITestResult -->
-        <test-method status="PASS" signature="foo()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@769e7ee8]" name="foo" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="foo()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@2b662a77]" name="foo" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- foo -->
-        <test-method status="PASS" signature="coke()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@769e7ee8]" name="coke" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- coke -->
-        <test-method status="PASS" signature="afterMethodITestResult(org.testng.ITestResult)[pri:0, instance:com.techm.testng.listeners.ITestResultClass@769e7ee8]" name="afterMethodITestResult" is-config="true" duration-ms="69" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="afterMethodITestResult(org.testng.ITestResult)[pri:0, instance:com.techm.testng.listeners.ITestResultClass@2b662a77]" name="afterMethodITestResult" is-config="true" duration-ms="68" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=foo status=SUCCESS method=ITestResultClass.foo()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@769e7ee8] output={null}]]]>
+                <![CDATA[[TestResult name=foo status=SUCCESS method=ITestResultClass.foo()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@2b662a77] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodITestResult -->
-        <test-method status="PASS" signature="afterMethodITestResult(org.testng.ITestResult)[pri:0, instance:com.techm.testng.listeners.ITestResultClass@769e7ee8]" name="afterMethodITestResult" is-config="true" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="afterMethodITestResult(org.testng.ITestResult)[pri:0, instance:com.techm.testng.listeners.ITestResultClass@2b662a77]" name="afterMethodITestResult" is-config="true" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=coke status=SUCCESS method=ITestResultClass.coke()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@769e7ee8] output={null}]]]>
+                <![CDATA[[TestResult name=orange status=SUCCESS method=ITestResultClass.orange()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@2b662a77] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodITestResult -->
-        <test-method status="PASS" signature="afterMethodITestResult(org.testng.ITestResult)[pri:0, instance:com.techm.testng.listeners.ITestResultClass@769e7ee8]" name="afterMethodITestResult" is-config="true" duration-ms="1" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=wine status=SUCCESS method=ITestResultClass.wine()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@769e7ee8] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodITestResult -->
-        <test-method status="PASS" signature="wine()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@769e7ee8]" name="wine" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- wine -->
-        <test-method status="PASS" signature="orange()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@769e7ee8]" name="orange" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="orange()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@2b662a77]" name="orange" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orange -->
-        <test-method status="PASS" signature="afterMethodITestResult(org.testng.ITestResult)[pri:0, instance:com.techm.testng.listeners.ITestResultClass@769e7ee8]" name="afterMethodITestResult" is-config="true" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="wine()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@2b662a77]" name="wine" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wine -->
+        <test-method status="PASS" signature="afterMethodITestResult(org.testng.ITestResult)[pri:0, instance:com.techm.testng.listeners.ITestResultClass@2b662a77]" name="afterMethodITestResult" is-config="true" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=orange status=SUCCESS method=ITestResultClass.orange()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@769e7ee8] output={null}]]]>
+                <![CDATA[[TestResult name=wine status=SUCCESS method=ITestResultClass.wine()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@2b662a77] output={null}]]]>
               </value>
             </param>
           </params>
@@ -643,13 +649,44 @@
         </test-method> <!-- afterMethodITestResult -->
       </class> <!-- com.techm.testng.listeners.ITestResultClass -->
       <class name="com.techm.testng.SalesForceTest">
-        <test-method status="PASS" signature="loginSalesforce()[pri:0, instance:com.techm.testng.SalesForceTest@516be40f]" name="loginSalesforce" duration-ms="44747" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:45Z">
+        <test-method status="PASS" signature="loginSalesforce()[pri:0, instance:com.techm.testng.SalesForceTest@10e31a9a]" name="loginSalesforce" duration-ms="44901" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:56:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSalesforce -->
       </class> <!-- com.techm.testng.SalesForceTest -->
       <class name="com.techm.testng.DataProviderClass1">
-        <test-method status="FAIL" signature="testCaseTwo(java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClass1@797badd3]" name="testCaseTwo" duration-ms="1" started-at="2015-06-19T12:13:00Z" data-provider="data1" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="testCaseThree(java.lang.String, java.lang.String, int, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClass1@2f112965]" name="testCaseThree" duration-ms="0" started-at="2015-06-19T12:55:22Z" data-provider="data1" finished-at="2015-06-19T12:55:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5267432146627760]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FJ76FG56]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseThree -->
+        <test-method status="FAIL" signature="testCaseTwo(java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClass1@2f112965]" name="testCaseTwo" duration-ms="0" started-at="2015-06-19T12:55:22Z" data-provider="data1" finished-at="2015-06-19T12:55:22Z">
           <params>
             <param index="0">
               <value>
@@ -696,7 +733,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseTwo -->
-        <test-method status="PASS" signature="testCaseThree(java.lang.String, java.lang.String, int, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClass1@797badd3]" name="testCaseThree" duration-ms="0" started-at="2015-06-19T12:13:00Z" data-provider="data1" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="testCaseThree(java.lang.String, java.lang.String, int, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClass1@2f112965]" name="testCaseThree" duration-ms="0" started-at="2015-06-19T12:55:22Z" data-provider="data1" finished-at="2015-06-19T12:55:22Z">
           <params>
             <param index="0">
               <value>
@@ -727,38 +764,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseThree -->
-        <test-method status="PASS" signature="testCaseThree(java.lang.String, java.lang.String, int, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClass1@797badd3]" name="testCaseThree" duration-ms="0" started-at="2015-06-19T12:13:00Z" data-provider="data1" finished-at="2015-06-19T12:13:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5267432146627760]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[FJ76FG56]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1234]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[user1]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[pass1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseThree -->
-        <test-method status="FAIL" signature="testCaseTwo(java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClass1@797badd3]" name="testCaseTwo" duration-ms="0" started-at="2015-06-19T12:13:00Z" data-provider="data1" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="FAIL" signature="testCaseTwo(java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClass1@2f112965]" name="testCaseTwo" duration-ms="0" started-at="2015-06-19T12:55:22Z" data-provider="data1" finished-at="2015-06-19T12:55:22Z">
           <params>
             <param index="0">
               <value>
@@ -807,229 +813,224 @@
         </test-method> <!-- testCaseTwo -->
       </class> <!-- com.techm.testng.DataProviderClass1 -->
       <class name="com.techm.testng.TestNgClass">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.techm.testng.TestNgClass@3c0a50da]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.techm.testng.TestNgClass@131774fe]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.techm.testng.TestNgClass@3c0a50da]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.techm.testng.TestNgClass@131774fe]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.techm.testng.TestNgClass@3c0a50da]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.techm.testng.TestNgClass@3c0a50da]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeClassMethod()[pri:0, instance:com.techm.testng.TestNgClass@3c0a50da]" name="beforeClassMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
+        <test-method status="PASS" signature="beforeClassMethod()[pri:0, instance:com.techm.testng.TestNgClass@131774fe]" name="beforeClassMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClassMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.techm.testng.TestNgClass@3c0a50da]" name="afterClass" is-config="true" duration-ms="1" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.techm.testng.TestNgClass@131774fe]" name="afterClass" is-config="true" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="f()[pri:0, instance:com.techm.testng.TestNgClass@3c0a50da]" name="f" duration-ms="0" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.techm.testng.TestNgClass@131774fe]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.techm.testng.TestNgClass@131774fe]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.techm.testng.TestNgClass@131774fe]" name="f" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.techm.testng.TestNgClass@3c0a50da]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.techm.testng.TestNgClass@131774fe]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.techm.testng.TestNgClass@3c0a50da]" name="afterSuite" is-config="true" duration-ms="0" started-at="2015-06-19T12:13:50Z" finished-at="2015-06-19T12:13:50Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.techm.testng.TestNgClass@131774fe]" name="afterSuite" is-config="true" duration-ms="0" started-at="2015-06-19T12:56:12Z" finished-at="2015-06-19T12:56:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.techm.testng.TestNgClass -->
     </test> <!-- Sanity1 -->
   </suite> <!-- TechM Suite1 -->
-  <suite name="TechM Suite2" duration-ms="65029" started-at="2015-06-19T17:11:55Z" finished-at="2015-06-19T17:13:00Z">
+  <suite name="TechM Suite2" duration-ms="63014" started-at="2015-06-19T17:54:19Z" finished-at="2015-06-19T17:55:22Z">
     <groups>
       <group name="A">
-        <method signature="TestNgClassDependsOnMethods.login()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@6093dd95]" name="login" class="com.techm.testng.TestNgClassDependsOnMethods"/>
-        <method signature="TestNgClassDependsOnMethods.payment()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@6093dd95]" name="payment" class="com.techm.testng.TestNgClassDependsOnMethods"/>
-        <method signature="TestNgClassDependsOnMethods.pop$$()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@6093dd95]" name="pop$$" class="com.techm.testng.TestNgClassDependsOnMethods"/>
+        <method signature="TestNgClassDependsOnMethods.login()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@685cb137]" name="login" class="com.techm.testng.TestNgClassDependsOnMethods"/>
+        <method signature="TestNgClassDependsOnMethods.payment()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@685cb137]" name="payment" class="com.techm.testng.TestNgClassDependsOnMethods"/>
+        <method signature="TestNgClassDependsOnMethods.pop$$()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@685cb137]" name="pop$$" class="com.techm.testng.TestNgClassDependsOnMethods"/>
       </group> <!-- A -->
       <group name="regression">
-        <method signature="TestNGClassPriority.testCaseB()[pri:0, instance:com.techm.testng.TestNGClassPriority@34340fab]" name="testCaseB" class="com.techm.testng.TestNGClassPriority"/>
-        <method signature="TestNGClassPriority.testCaseD()[pri:0, instance:com.techm.testng.TestNGClassPriority@34340fab]" name="testCaseD" class="com.techm.testng.TestNGClassPriority"/>
-        <method signature="TestNGClassPriority.testCaseE()[pri:0, instance:com.techm.testng.TestNGClassPriority@34340fab]" name="testCaseE" class="com.techm.testng.TestNGClassPriority"/>
+        <method signature="TestNGClassPriority.testCaseB()[pri:0, instance:com.techm.testng.TestNGClassPriority@7cd62f43]" name="testCaseB" class="com.techm.testng.TestNGClassPriority"/>
+        <method signature="TestNGClassPriority.testCaseD()[pri:0, instance:com.techm.testng.TestNGClassPriority@7cd62f43]" name="testCaseD" class="com.techm.testng.TestNGClassPriority"/>
+        <method signature="TestNGClassPriority.testCaseE()[pri:0, instance:com.techm.testng.TestNGClassPriority@7cd62f43]" name="testCaseE" class="com.techm.testng.TestNGClassPriority"/>
       </group> <!-- regression -->
       <group name="Regression">
-        <method signature="TestNgGroupsClass.groupsMethod2()[pri:0, instance:com.techm.testng.TestNgGroupsClass@2aafb23c]" name="groupsMethod2" class="com.techm.testng.TestNgGroupsClass"/>
-        <method signature="TestNgGroupsClass.groupsMethod3()[pri:0, instance:com.techm.testng.TestNgGroupsClass@2aafb23c]" name="groupsMethod3" class="com.techm.testng.TestNgGroupsClass"/>
-        <method signature="TestNgGroupsClass.groupsMethod4()[pri:0, instance:com.techm.testng.TestNgGroupsClass@2aafb23c]" name="groupsMethod4" class="com.techm.testng.TestNgGroupsClass"/>
+        <method signature="TestNgGroupsClass.groupsMethod2()[pri:0, instance:com.techm.testng.TestNgGroupsClass@58c1670b]" name="groupsMethod2" class="com.techm.testng.TestNgGroupsClass"/>
+        <method signature="TestNgGroupsClass.groupsMethod3()[pri:0, instance:com.techm.testng.TestNgGroupsClass@58c1670b]" name="groupsMethod3" class="com.techm.testng.TestNgGroupsClass"/>
+        <method signature="TestNgGroupsClass.groupsMethod4()[pri:0, instance:com.techm.testng.TestNgGroupsClass@58c1670b]" name="groupsMethod4" class="com.techm.testng.TestNgGroupsClass"/>
       </group> <!-- Regression -->
       <group name="sanity">
-        <method signature="TestNGClassPriority.testCaseA()[pri:0, instance:com.techm.testng.TestNGClassPriority@34340fab]" name="testCaseA" class="com.techm.testng.TestNGClassPriority"/>
-        <method signature="TestNGClassPriority.testCaseC()[pri:0, instance:com.techm.testng.TestNGClassPriority@34340fab]" name="testCaseC" class="com.techm.testng.TestNGClassPriority"/>
-        <method signature="TestNgGroupsClass.groupsMethod1()[pri:0, instance:com.techm.testng.TestNgGroupsClass@2aafb23c]" name="groupsMethod1" class="com.techm.testng.TestNgGroupsClass"/>
-        <method signature="TestNgGroupsClass.groupsMethod5()[pri:0, instance:com.techm.testng.TestNgGroupsClass@2aafb23c]" name="groupsMethod5" class="com.techm.testng.TestNgGroupsClass"/>
-        <method signature="TestNGClassPriority.testCaseF()[pri:0, instance:com.techm.testng.TestNGClassPriority@34340fab]" name="testCaseF" class="com.techm.testng.TestNGClassPriority"/>
-        <method signature="TestNGClassPriority.testCaseG()[pri:0, instance:com.techm.testng.TestNGClassPriority@34340fab]" name="testCaseG" class="com.techm.testng.TestNGClassPriority"/>
+        <method signature="TestNGClassPriority.testCaseA()[pri:0, instance:com.techm.testng.TestNGClassPriority@7cd62f43]" name="testCaseA" class="com.techm.testng.TestNGClassPriority"/>
+        <method signature="TestNGClassPriority.testCaseC()[pri:0, instance:com.techm.testng.TestNGClassPriority@7cd62f43]" name="testCaseC" class="com.techm.testng.TestNGClassPriority"/>
+        <method signature="TestNGClassPriority.testCaseF()[pri:0, instance:com.techm.testng.TestNGClassPriority@7cd62f43]" name="testCaseF" class="com.techm.testng.TestNGClassPriority"/>
+        <method signature="TestNGClassPriority.testCaseG()[pri:0, instance:com.techm.testng.TestNGClassPriority@7cd62f43]" name="testCaseG" class="com.techm.testng.TestNGClassPriority"/>
+        <method signature="TestNgGroupsClass.groupsMethod1()[pri:0, instance:com.techm.testng.TestNgGroupsClass@58c1670b]" name="groupsMethod1" class="com.techm.testng.TestNgGroupsClass"/>
+        <method signature="TestNgGroupsClass.groupsMethod5()[pri:0, instance:com.techm.testng.TestNgGroupsClass@58c1670b]" name="groupsMethod5" class="com.techm.testng.TestNgGroupsClass"/>
       </group> <!-- sanity -->
     </groups>
-    <test name="Sanity1" duration-ms="65029" started-at="2015-06-19T17:11:55Z" finished-at="2015-06-19T17:13:00Z">
+    <test name="Sanity1" duration-ms="63014" started-at="2015-06-19T17:54:19Z" finished-at="2015-06-19T17:55:22Z">
       <class name="com.techm.practise.ImplementingITestListener">
-        <test-method status="PASS" signature="bar()[pri:0, instance:com.techm.practise.ImplementingITestListener@2b80d80f]" name="bar" duration-ms="0" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
+        <test-method status="PASS" signature="bar()[pri:0, instance:com.techm.practise.ImplementingITestListener@6d4b1c02]" name="bar" duration-ms="0" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bar -->
-        <test-method status="PASS" signature="coke()[pri:0, instance:com.techm.practise.ImplementingITestListener@2b80d80f]" name="coke" duration-ms="0" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- coke -->
-        <test-method status="PASS" signature="foo()[pri:0, instance:com.techm.practise.ImplementingITestListener@2b80d80f]" name="foo" duration-ms="0" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
+        <test-method status="PASS" signature="foo()[pri:0, instance:com.techm.practise.ImplementingITestListener@6d4b1c02]" name="foo" duration-ms="0" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- foo -->
-        <test-method status="PASS" signature="wine()[pri:0, instance:com.techm.practise.ImplementingITestListener@2b80d80f]" name="wine" duration-ms="0" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
+        <test-method status="PASS" signature="coke()[pri:0, instance:com.techm.practise.ImplementingITestListener@6d4b1c02]" name="coke" duration-ms="0" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coke -->
+        <test-method status="PASS" signature="wine()[pri:0, instance:com.techm.practise.ImplementingITestListener@6d4b1c02]" name="wine" duration-ms="0" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wine -->
       </class> <!-- com.techm.practise.ImplementingITestListener -->
       <class name="com.techm.testng.listeners.IInvokedMethodListenerInterfaceImplementation">
-        <test-method status="PASS" signature="f()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerInterfaceImplementation@12405818]" name="f" duration-ms="0" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerInterfaceImplementation@10b48321]" name="f" duration-ms="1" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
       </class> <!-- com.techm.testng.listeners.IInvokedMethodListenerInterfaceImplementation -->
       <class name="com.techm.testng.listeners.IInvokedMethodListenerClass">
-        <test-method status="PASS" signature="testCaseFour()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerClass@7d9d1a19]" name="testCaseFour" duration-ms="0" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseFour -->
-        <test-method status="PASS" signature="testCaseOne()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerClass@7d9d1a19]" name="testCaseOne" duration-ms="0" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseOne -->
-        <test-method status="PASS" signature="testCaseSix()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerClass@7d9d1a19]" name="testCaseSix" duration-ms="0" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseSix -->
-        <test-method status="PASS" signature="testCaseThree()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerClass@7d9d1a19]" name="testCaseThree" duration-ms="1" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseThree -->
-        <test-method status="PASS" signature="testCaseFive()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerClass@7d9d1a19]" name="testCaseFive" duration-ms="0" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
+        <test-method status="PASS" signature="testCaseFive()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerClass@6b57696f]" name="testCaseFive" duration-ms="0" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseFive -->
-        <test-method status="PASS" signature="testCaseTwo()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerClass@7d9d1a19]" name="testCaseTwo" duration-ms="0" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
+        <test-method status="PASS" signature="testCaseFour()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerClass@6b57696f]" name="testCaseFour" duration-ms="1" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseFour -->
+        <test-method status="PASS" signature="testCaseThree()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerClass@6b57696f]" name="testCaseThree" duration-ms="0" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseThree -->
+        <test-method status="PASS" signature="testCaseOne()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerClass@6b57696f]" name="testCaseOne" duration-ms="0" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseOne -->
+        <test-method status="PASS" signature="testCaseSix()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerClass@6b57696f]" name="testCaseSix" duration-ms="0" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseSix -->
+        <test-method status="PASS" signature="testCaseTwo()[pri:0, instance:com.techm.testng.listeners.IInvokedMethodListenerClass@6b57696f]" name="testCaseTwo" duration-ms="0" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseTwo -->
       </class> <!-- com.techm.testng.listeners.IInvokedMethodListenerClass -->
       <class name="com.techm.testng.SampleTest">
-        <test-method status="PASS" signature="helloWorld()[pri:0, instance:com.techm.testng.SampleTest@6d4b1c02]" name="helloWorld" duration-ms="0" started-at="2015-06-19T12:12:55Z" finished-at="2015-06-19T12:12:55Z">
+        <test-method status="PASS" signature="helloWorld()[pri:0, instance:com.techm.testng.SampleTest@5bb21b69]" name="helloWorld" duration-ms="0" started-at="2015-06-19T12:55:17Z" finished-at="2015-06-19T12:55:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- helloWorld -->
       </class> <!-- com.techm.testng.SampleTest -->
       <class name="com.techm.testng.TestCaseThree">
-        <test-method status="PASS" signature="testMethodThree()[pri:0, instance:com.techm.testng.TestCaseThree@5622fdf]" name="testMethodThree" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="testMethodThree()[pri:0, instance:com.techm.testng.TestCaseThree@314c508a]" name="testMethodThree" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethodThree -->
       </class> <!-- com.techm.testng.TestCaseThree -->
       <class name="com.techm.testng.TestNgGroupsClass">
-        <test-method status="PASS" signature="groupsMethod1()[pri:0, instance:com.techm.testng.TestNgGroupsClass@2aafb23c]" name="groupsMethod1" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- groupsMethod1 -->
-        <test-method status="PASS" signature="groupsMethod2()[pri:0, instance:com.techm.testng.TestNgGroupsClass@2aafb23c]" name="groupsMethod2" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- groupsMethod2 -->
-        <test-method status="PASS" signature="groupsMethod5()[pri:0, instance:com.techm.testng.TestNgGroupsClass@2aafb23c]" name="groupsMethod5" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- groupsMethod5 -->
-        <test-method status="PASS" signature="groupsMethod4()[pri:0, instance:com.techm.testng.TestNgGroupsClass@2aafb23c]" name="groupsMethod4" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="groupsMethod4()[pri:0, instance:com.techm.testng.TestNgGroupsClass@58c1670b]" name="groupsMethod4" duration-ms="1" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- groupsMethod4 -->
-        <test-method status="PASS" signature="groupsMethod3()[pri:0, instance:com.techm.testng.TestNgGroupsClass@2aafb23c]" name="groupsMethod3" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="groupsMethod2()[pri:0, instance:com.techm.testng.TestNgGroupsClass@58c1670b]" name="groupsMethod2" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groupsMethod2 -->
+        <test-method status="PASS" signature="groupsMethod1()[pri:0, instance:com.techm.testng.TestNgGroupsClass@58c1670b]" name="groupsMethod1" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groupsMethod1 -->
+        <test-method status="PASS" signature="groupsMethod3()[pri:0, instance:com.techm.testng.TestNgGroupsClass@58c1670b]" name="groupsMethod3" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- groupsMethod3 -->
+        <test-method status="PASS" signature="groupsMethod5()[pri:0, instance:com.techm.testng.TestNgGroupsClass@58c1670b]" name="groupsMethod5" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groupsMethod5 -->
       </class> <!-- com.techm.testng.TestNgGroupsClass -->
       <class name="com.techm.practise.ITestListenerClass">
-        <test-method status="PASS" signature="f()[pri:0, instance:com.techm.practise.ITestListenerClass@10b48321]" name="f" duration-ms="0" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.techm.practise.ITestListenerClass@16267862]" name="f" duration-ms="1" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
       </class> <!-- com.techm.practise.ITestListenerClass -->
-      <class name="com.techm.testng.TestNGClassPriority">
-        <test-method status="PASS" signature="testCaseB()[pri:0, instance:com.techm.testng.TestNGClassPriority@34340fab]" name="testCaseB" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseB -->
-        <test-method status="PASS" signature="testCaseD()[pri:0, instance:com.techm.testng.TestNGClassPriority@34340fab]" name="testCaseD" duration-ms="1" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseD -->
-        <test-method status="PASS" signature="testCaseA()[pri:0, instance:com.techm.testng.TestNGClassPriority@34340fab]" name="testCaseA" duration-ms="0" started-at="2015-06-19T12:13:00Z" description="A Description about Test Case A" finished-at="2015-06-19T12:13:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseA -->
-        <test-method status="PASS" signature="testCaseG()[pri:0, instance:com.techm.testng.TestNGClassPriority@34340fab]" name="testCaseG" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseG -->
-        <test-method status="PASS" signature="testCaseF()[pri:0, instance:com.techm.testng.TestNGClassPriority@34340fab]" name="testCaseF" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseF -->
-        <test-method status="PASS" signature="testCaseE()[pri:0, instance:com.techm.testng.TestNGClassPriority@34340fab]" name="testCaseE" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseE -->
-        <test-method status="PASS" signature="testCaseC()[pri:0, instance:com.techm.testng.TestNGClassPriority@34340fab]" name="testCaseC" duration-ms="0" depends-on-groups="regression" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseC -->
-      </class> <!-- com.techm.testng.TestNGClassPriority -->
       <class name="com.techm.testng.TestNgClassDependsOnMethods">
-        <test-method status="PASS" signature="login()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@6093dd95]" name="login" duration-ms="1" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@685cb137]" name="login" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="payment()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@6093dd95]" name="payment" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="payment()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@685cb137]" name="payment" duration-ms="1" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- payment -->
-        <test-method status="PASS" signature="pop$$()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@6093dd95]" name="pop$$" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="pop$$()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@685cb137]" name="pop$$" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pop$$ -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@6093dd95]" name="logout" duration-ms="1" started-at="2015-06-19T12:13:00Z" depends-on-methods="com.techm.testng.TestNgClassDependsOnMethods.payment, com.techm.testng.TestNgClassDependsOnMethods.login, com.techm.testng.TestNgClassDependsOnMethods.pop$$" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.techm.testng.TestNgClassDependsOnMethods@685cb137]" name="logout" duration-ms="0" started-at="2015-06-19T12:55:22Z" depends-on-methods="com.techm.testng.TestNgClassDependsOnMethods.payment, com.techm.testng.TestNgClassDependsOnMethods.login, com.techm.testng.TestNgClassDependsOnMethods.pop$$" finished-at="2015-06-19T12:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
       </class> <!-- com.techm.testng.TestNgClassDependsOnMethods -->
+      <class name="com.techm.testng.TestNGClassPriority">
+        <test-method status="PASS" signature="testCaseB()[pri:0, instance:com.techm.testng.TestNGClassPriority@7cd62f43]" name="testCaseB" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseB -->
+        <test-method status="PASS" signature="testCaseA()[pri:0, instance:com.techm.testng.TestNGClassPriority@7cd62f43]" name="testCaseA" duration-ms="0" started-at="2015-06-19T12:55:22Z" description="A Description about Test Case A" finished-at="2015-06-19T12:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseA -->
+        <test-method status="PASS" signature="testCaseD()[pri:0, instance:com.techm.testng.TestNGClassPriority@7cd62f43]" name="testCaseD" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseD -->
+        <test-method status="PASS" signature="testCaseF()[pri:0, instance:com.techm.testng.TestNGClassPriority@7cd62f43]" name="testCaseF" duration-ms="1" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseF -->
+        <test-method status="PASS" signature="testCaseE()[pri:0, instance:com.techm.testng.TestNGClassPriority@7cd62f43]" name="testCaseE" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseE -->
+        <test-method status="PASS" signature="testCaseG()[pri:0, instance:com.techm.testng.TestNGClassPriority@7cd62f43]" name="testCaseG" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseG -->
+        <test-method status="PASS" signature="testCaseC()[pri:0, instance:com.techm.testng.TestNGClassPriority@7cd62f43]" name="testCaseC" duration-ms="0" depends-on-groups="regression" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseC -->
+      </class> <!-- com.techm.testng.TestNGClassPriority -->
+      <class name="com.techm.testng.NewClass">
+        <test-method status="PASS" signature="newClass()[pri:0, instance:com.techm.testng.NewClass@6b67034]" name="newClass" duration-ms="0" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newClass -->
+      </class> <!-- com.techm.testng.NewClass -->
       <class name="com.techm.testng.TestCaseOne">
-        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:com.techm.testng.TestCaseOne@39c0f4a]" name="testMethodOne" duration-ms="5001" started-at="2015-06-19T12:12:55Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:com.techm.testng.TestCaseOne@587d1d39]" name="testMethodOne" duration-ms="5002" started-at="2015-06-19T12:55:17Z" finished-at="2015-06-19T12:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethodOne -->
       </class> <!-- com.techm.testng.TestCaseOne -->
       <class name="com.techm.practise.ITestResultClass">
-        <test-method status="PASS" signature="resultMethod(org.testng.ITestResult)[pri:0, instance:com.techm.practise.ITestResultClass@d7b1517]" name="resultMethod" is-config="true" duration-ms="1" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testCaseA status=FAILURE method=ITestResultClass.testCaseA()[pri:0, instance:com.techm.practise.ITestResultClass@d7b1517] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resultMethod -->
-        <test-method status="FAIL" signature="testCaseA()[pri:0, instance:com.techm.practise.ITestResultClass@d7b1517]" name="testCaseA" duration-ms="0" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
+        <test-method status="FAIL" signature="testCaseA()[pri:0, instance:com.techm.practise.ITestResultClass@6093dd95]" name="testCaseA" duration-ms="0" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Failing the test case A]]>
@@ -1064,86 +1065,85 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseA -->
-        <test-method status="PASS" signature="testCaseB()[pri:0, instance:com.techm.practise.ITestResultClass@d7b1517]" name="testCaseB" duration-ms="1" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseB -->
-        <test-method status="PASS" signature="resultMethod(org.testng.ITestResult)[pri:0, instance:com.techm.practise.ITestResultClass@d7b1517]" name="resultMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
+        <test-method status="PASS" signature="resultMethod(org.testng.ITestResult)[pri:0, instance:com.techm.practise.ITestResultClass@6093dd95]" name="resultMethod" is-config="true" duration-ms="1" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testCaseB status=SUCCESS method=ITestResultClass.testCaseB()[pri:0, instance:com.techm.practise.ITestResultClass@d7b1517] output={null}]]]>
+                <![CDATA[[TestResult name=testCaseA status=FAILURE method=ITestResultClass.testCaseA()[pri:0, instance:com.techm.practise.ITestResultClass@6093dd95] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resultMethod -->
+        <test-method status="PASS" signature="resultMethod(org.testng.ITestResult)[pri:0, instance:com.techm.practise.ITestResultClass@6093dd95]" name="resultMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCaseB status=SUCCESS method=ITestResultClass.testCaseB()[pri:0, instance:com.techm.practise.ITestResultClass@6093dd95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultMethod -->
+        <test-method status="PASS" signature="testCaseB()[pri:0, instance:com.techm.practise.ITestResultClass@6093dd95]" name="testCaseB" duration-ms="0" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseB -->
       </class> <!-- com.techm.practise.ITestResultClass -->
+      <class name="com.techm.testng.DataProviderClassName">
+        <test-method status="PASS" signature="loginTestCase0(java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClassName@604ed9f0]" name="loginTestCase0" duration-ms="0" started-at="2015-06-19T12:54:19Z" data-provider="dataProviderMethod" finished-at="2015-06-19T12:54:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase0 -->
+        <test-method status="PASS" signature="loginTestCase0(java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClassName@604ed9f0]" name="loginTestCase0" duration-ms="0" started-at="2015-06-19T12:54:19Z" data-provider="dataProviderMethod" finished-at="2015-06-19T12:54:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase0 -->
+        <test-method status="PASS" signature="loginTestCase0(java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClassName@604ed9f0]" name="loginTestCase0" duration-ms="0" started-at="2015-06-19T12:54:19Z" data-provider="dataProviderMethod" finished-at="2015-06-19T12:54:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase0 -->
+      </class> <!-- com.techm.testng.DataProviderClassName -->
       <class name="com.techm.testng.TestNGImpClass">
-        <test-method status="PASS" signature="foo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.TestNGImpClass@4883b407]" name="foo" duration-ms="0" started-at="2015-06-19T12:13:00Z" data-provider="dataSpecial" finished-at="2015-06-19T12:13:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user00]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pass00]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[sq100]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[sq200]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[sq300]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- foo -->
-        <test-method status="PASS" signature="foo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.TestNGImpClass@4883b407]" name="foo" duration-ms="1" started-at="2015-06-19T12:13:00Z" data-provider="dataSpecial" finished-at="2015-06-19T12:13:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user22]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pass22]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[sq122]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[sq222]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[sq322]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- foo -->
-        <test-method status="PASS" signature="foo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.TestNGImpClass@4883b407]" name="foo" duration-ms="0" started-at="2015-06-19T12:13:00Z" data-provider="dataSpecial" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="foo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.TestNGImpClass@6a41eaa2]" name="foo" duration-ms="0" started-at="2015-06-19T12:55:22Z" data-provider="dataSpecial" finished-at="2015-06-19T12:55:22Z">
           <params>
             <param index="0">
               <value>
@@ -1174,38 +1174,69 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- foo -->
-        <test-method status="PASS" signature="foo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.TestNGImpClass@4883b407]" name="foo" duration-ms="57" started-at="2015-06-19T12:13:00Z" data-provider="dataSpecial" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="foo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.TestNGImpClass@6a41eaa2]" name="foo" duration-ms="0" started-at="2015-06-19T12:55:22Z" data-provider="dataSpecial" finished-at="2015-06-19T12:55:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[user44]]>
+                <![CDATA[user22]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[pass44]]>
+                <![CDATA[pass22]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[sq144]]>
+                <![CDATA[sq122]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[sq244]]>
+                <![CDATA[sq222]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[sq344]]>
+                <![CDATA[sq322]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- foo -->
-        <test-method status="PASS" signature="foo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.TestNGImpClass@4883b407]" name="foo" duration-ms="0" started-at="2015-06-19T12:13:00Z" data-provider="dataSpecial" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="foo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.TestNGImpClass@6a41eaa2]" name="foo" duration-ms="0" started-at="2015-06-19T12:55:22Z" data-provider="dataSpecial" finished-at="2015-06-19T12:55:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user00]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass00]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sq100]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sq200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sq300]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- foo -->
+        <test-method status="PASS" signature="foo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.TestNGImpClass@6a41eaa2]" name="foo" duration-ms="0" started-at="2015-06-19T12:55:22Z" data-provider="dataSpecial" finished-at="2015-06-19T12:55:22Z">
           <params>
             <param index="0">
               <value>
@@ -1236,59 +1267,40 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- foo -->
+        <test-method status="PASS" signature="foo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.TestNGImpClass@6a41eaa2]" name="foo" duration-ms="1" started-at="2015-06-19T12:55:22Z" data-provider="dataSpecial" finished-at="2015-06-19T12:55:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user44]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass44]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sq144]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sq244]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sq344]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- foo -->
       </class> <!-- com.techm.testng.TestNGImpClass -->
-      <class name="com.techm.testng.DataProviderClassName">
-        <test-method status="PASS" signature="loginTestCase0(java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClassName@1ae369b7]" name="loginTestCase0" duration-ms="1" started-at="2015-06-19T12:11:55Z" data-provider="dataProviderMethod" finished-at="2015-06-19T12:11:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pass2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTestCase0 -->
-        <test-method status="PASS" signature="loginTestCase0(java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClassName@1ae369b7]" name="loginTestCase0" duration-ms="0" started-at="2015-06-19T12:11:55Z" data-provider="dataProviderMethod" finished-at="2015-06-19T12:11:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pass1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTestCase0 -->
-        <test-method status="PASS" signature="loginTestCase0(java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClassName@1ae369b7]" name="loginTestCase0" duration-ms="0" started-at="2015-06-19T12:11:55Z" data-provider="dataProviderMethod" finished-at="2015-06-19T12:11:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pass0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTestCase0 -->
-      </class> <!-- com.techm.testng.DataProviderClassName -->
       <class name="com.techm.testng.ParameterClass">
-        <test-method status="FAIL" signature="paramterMethod(java.lang.String)[pri:0, instance:com.techm.testng.ParameterClass@314c508a]" name="paramterMethod" duration-ms="0" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
+        <test-method status="FAIL" signature="paramterMethod(java.lang.String)[pri:0, instance:com.techm.testng.ParameterClass@2fc14f68]" name="paramterMethod" duration-ms="0" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -1325,7 +1337,48 @@ in C:\Selenium\workspace3\Test\TechM_TestNG_Framework\ant\build\testng-listeners
         </test-method> <!-- paramterMethod -->
       </class> <!-- com.techm.testng.ParameterClass -->
       <class name="com.techm.testng.TestCaseTwo">
-        <test-method status="FAIL" signature="testCaseA()[pri:0, instance:com.techm.testng.TestCaseTwo@5bb21b69]" name="testCaseA" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="resultMethod(org.testng.ITestResult)[pri:0, instance:com.techm.testng.TestCaseTwo@725bef66]" name="resultMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethodTwo status=SUCCESS method=TestCaseTwo.testMethodTwo()[pri:0, instance:com.techm.testng.TestCaseTwo@725bef66] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultMethod -->
+        <test-method status="PASS" signature="testMethodTwo()[pri:0, instance:com.techm.testng.TestCaseTwo@725bef66]" name="testMethodTwo" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodTwo -->
+        <test-method status="PASS" signature="resultMethod(org.testng.ITestResult)[pri:0, instance:com.techm.testng.TestCaseTwo@725bef66]" name="resultMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCaseA status=FAILURE method=ITestResultClass.testCaseA()[pri:0, instance:com.techm.testng.TestCaseTwo@725bef66] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultMethod -->
+        <test-method status="PASS" signature="resultMethod(org.testng.ITestResult)[pri:0, instance:com.techm.testng.TestCaseTwo@725bef66]" name="resultMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCaseB status=SUCCESS method=ITestResultClass.testCaseB()[pri:0, instance:com.techm.testng.TestCaseTwo@725bef66] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultMethod -->
+        <test-method status="PASS" signature="testCaseB()[pri:0, instance:com.techm.testng.TestCaseTwo@725bef66]" name="testCaseB" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseB -->
+        <test-method status="FAIL" signature="testCaseA()[pri:0, instance:com.techm.testng.TestCaseTwo@725bef66]" name="testCaseA" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Failing the test case A]]>
@@ -1360,65 +1413,20 @@ in C:\Selenium\workspace3\Test\TechM_TestNG_Framework\ant\build\testng-listeners
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseA -->
-        <test-method status="PASS" signature="resultMethod(org.testng.ITestResult)[pri:0, instance:com.techm.testng.TestCaseTwo@5bb21b69]" name="resultMethod" is-config="true" duration-ms="1" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testCaseA status=FAILURE method=ITestResultClass.testCaseA()[pri:0, instance:com.techm.testng.TestCaseTwo@5bb21b69] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resultMethod -->
-        <test-method status="PASS" signature="testMethodTwo()[pri:0, instance:com.techm.testng.TestCaseTwo@5bb21b69]" name="testMethodTwo" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethodTwo -->
-        <test-method status="PASS" signature="resultMethod(org.testng.ITestResult)[pri:0, instance:com.techm.testng.TestCaseTwo@5bb21b69]" name="resultMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testCaseB status=SUCCESS method=ITestResultClass.testCaseB()[pri:0, instance:com.techm.testng.TestCaseTwo@5bb21b69] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resultMethod -->
-        <test-method status="PASS" signature="testCaseB()[pri:0, instance:com.techm.testng.TestCaseTwo@5bb21b69]" name="testCaseB" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseB -->
-        <test-method status="PASS" signature="resultMethod(org.testng.ITestResult)[pri:0, instance:com.techm.testng.TestCaseTwo@5bb21b69]" name="resultMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testMethodTwo status=SUCCESS method=TestCaseTwo.testMethodTwo()[pri:0, instance:com.techm.testng.TestCaseTwo@5bb21b69] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resultMethod -->
       </class> <!-- com.techm.testng.TestCaseTwo -->
       <class name="com.techm.testng.listeners.ITestResultClass">
-        <test-method status="PASS" signature="coke()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@1794d431]" name="coke" duration-ms="1" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- coke -->
-        <test-method status="PASS" signature="afterMethodITestResult(org.testng.ITestResult)[pri:0, instance:com.techm.testng.listeners.ITestResultClass@1794d431]" name="afterMethodITestResult" is-config="true" duration-ms="0" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
+        <test-method status="PASS" signature="afterMethodITestResult(org.testng.ITestResult)[pri:0, instance:com.techm.testng.listeners.ITestResultClass@6b9651f3]" name="afterMethodITestResult" is-config="true" duration-ms="0" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=bar status=FAILURE method=ITestResultClass.bar()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@1794d431] output={null}]]]>
+                <![CDATA[[TestResult name=bar status=FAILURE method=ITestResultClass.bar()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@6b9651f3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodITestResult -->
-        <test-method status="FAIL" signature="bar()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@1794d431]" name="bar" duration-ms="0" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
+        <test-method status="FAIL" signature="bar()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@6b9651f3]" name="bar" duration-ms="0" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Method bar is a failure :( ]]>
@@ -1453,56 +1461,60 @@ in C:\Selenium\workspace3\Test\TechM_TestNG_Framework\ant\build\testng-listeners
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bar -->
-        <test-method status="PASS" signature="afterMethodITestResult(org.testng.ITestResult)[pri:0, instance:com.techm.testng.listeners.ITestResultClass@1794d431]" name="afterMethodITestResult" is-config="true" duration-ms="0" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
+        <test-method status="PASS" signature="afterMethodITestResult(org.testng.ITestResult)[pri:0, instance:com.techm.testng.listeners.ITestResultClass@6b9651f3]" name="afterMethodITestResult" is-config="true" duration-ms="0" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=coke status=SUCCESS method=ITestResultClass.coke()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@1794d431] output={null}]]]>
+                <![CDATA[[TestResult name=coke status=SUCCESS method=ITestResultClass.coke()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@6b9651f3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodITestResult -->
-        <test-method status="PASS" signature="foo()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@1794d431]" name="foo" duration-ms="0" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
+        <test-method status="PASS" signature="foo()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@6b9651f3]" name="foo" duration-ms="1" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- foo -->
-        <test-method status="PASS" signature="orange()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@1794d431]" name="orange" duration-ms="0" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
+        <test-method status="PASS" signature="coke()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@6b9651f3]" name="coke" duration-ms="0" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coke -->
+        <test-method status="PASS" signature="orange()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@6b9651f3]" name="orange" duration-ms="0" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orange -->
-        <test-method status="PASS" signature="afterMethodITestResult(org.testng.ITestResult)[pri:0, instance:com.techm.testng.listeners.ITestResultClass@1794d431]" name="afterMethodITestResult" is-config="true" duration-ms="0" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
+        <test-method status="PASS" signature="afterMethodITestResult(org.testng.ITestResult)[pri:0, instance:com.techm.testng.listeners.ITestResultClass@6b9651f3]" name="afterMethodITestResult" is-config="true" duration-ms="66" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=foo status=SUCCESS method=ITestResultClass.foo()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@1794d431] output={null}]]]>
+                <![CDATA[[TestResult name=orange status=SUCCESS method=ITestResultClass.orange()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@6b9651f3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodITestResult -->
-        <test-method status="PASS" signature="afterMethodITestResult(org.testng.ITestResult)[pri:0, instance:com.techm.testng.listeners.ITestResultClass@1794d431]" name="afterMethodITestResult" is-config="true" duration-ms="0" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
+        <test-method status="PASS" signature="afterMethodITestResult(org.testng.ITestResult)[pri:0, instance:com.techm.testng.listeners.ITestResultClass@6b9651f3]" name="afterMethodITestResult" is-config="true" duration-ms="0" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=orange status=SUCCESS method=ITestResultClass.orange()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@1794d431] output={null}]]]>
+                <![CDATA[[TestResult name=foo status=SUCCESS method=ITestResultClass.foo()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@6b9651f3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodITestResult -->
-        <test-method status="PASS" signature="wine()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@1794d431]" name="wine" duration-ms="80" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
+        <test-method status="PASS" signature="wine()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@6b9651f3]" name="wine" duration-ms="0" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wine -->
-        <test-method status="PASS" signature="afterMethodITestResult(org.testng.ITestResult)[pri:0, instance:com.techm.testng.listeners.ITestResultClass@1794d431]" name="afterMethodITestResult" is-config="true" duration-ms="0" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
+        <test-method status="PASS" signature="afterMethodITestResult(org.testng.ITestResult)[pri:0, instance:com.techm.testng.listeners.ITestResultClass@6b9651f3]" name="afterMethodITestResult" is-config="true" duration-ms="1" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=wine status=SUCCESS method=ITestResultClass.wine()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@1794d431] output={null}]]]>
+                <![CDATA[[TestResult name=wine status=SUCCESS method=ITestResultClass.wine()[pri:0, instance:com.techm.testng.listeners.ITestResultClass@6b9651f3] output={null}]]]>
               </value>
             </param>
           </params>
@@ -1511,44 +1523,13 @@ in C:\Selenium\workspace3\Test\TechM_TestNG_Framework\ant\build\testng-listeners
         </test-method> <!-- afterMethodITestResult -->
       </class> <!-- com.techm.testng.listeners.ITestResultClass -->
       <class name="com.techm.testng.SalesForceTest">
-        <test-method status="PASS" signature="loginSalesforce()[pri:0, instance:com.techm.testng.SalesForceTest@4b6995df]" name="loginSalesforce" duration-ms="59868" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:12:55Z">
+        <test-method status="PASS" signature="loginSalesforce()[pri:0, instance:com.techm.testng.SalesForceTest@9a7504c]" name="loginSalesforce" duration-ms="57922" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:55:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSalesforce -->
       </class> <!-- com.techm.testng.SalesForceTest -->
       <class name="com.techm.testng.DataProviderClass1">
-        <test-method status="PASS" signature="testCaseThree(java.lang.String, java.lang.String, int, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClass1@6fffcba5]" name="testCaseThree" duration-ms="0" started-at="2015-06-19T12:11:55Z" data-provider="data1" finished-at="2015-06-19T12:11:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5267432109875690]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[AZ677Y435]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1234]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[user0]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[pass0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseThree -->
-        <test-method status="PASS" signature="testCaseThree(java.lang.String, java.lang.String, int, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClass1@6fffcba5]" name="testCaseThree" duration-ms="0" started-at="2015-06-19T12:11:55Z" data-provider="data1" finished-at="2015-06-19T12:11:55Z">
+        <test-method status="PASS" signature="testCaseThree(java.lang.String, java.lang.String, int, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClass1@6a4f787b]" name="testCaseThree" duration-ms="0" started-at="2015-06-19T12:54:19Z" data-provider="data1" finished-at="2015-06-19T12:54:19Z">
           <params>
             <param index="0">
               <value>
@@ -1579,7 +1560,7 @@ in C:\Selenium\workspace3\Test\TechM_TestNG_Framework\ant\build\testng-listeners
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseThree -->
-        <test-method status="FAIL" signature="testCaseTwo(java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClass1@6fffcba5]" name="testCaseTwo" duration-ms="0" started-at="2015-06-19T12:11:55Z" data-provider="data1" finished-at="2015-06-19T12:11:55Z">
+        <test-method status="FAIL" signature="testCaseTwo(java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClass1@6a4f787b]" name="testCaseTwo" duration-ms="0" started-at="2015-06-19T12:54:19Z" data-provider="data1" finished-at="2015-06-19T12:54:19Z">
           <params>
             <param index="0">
               <value>
@@ -1626,7 +1607,38 @@ in C:\Selenium\workspace3\Test\TechM_TestNG_Framework\ant\build\testng-listeners
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseTwo -->
-        <test-method status="FAIL" signature="testCaseTwo(java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClass1@6fffcba5]" name="testCaseTwo" duration-ms="0" started-at="2015-06-19T12:11:55Z" data-provider="data1" finished-at="2015-06-19T12:11:55Z">
+        <test-method status="PASS" signature="testCaseThree(java.lang.String, java.lang.String, int, java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClass1@6a4f787b]" name="testCaseThree" duration-ms="0" started-at="2015-06-19T12:54:19Z" data-provider="data1" finished-at="2015-06-19T12:54:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5267432109875690]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AZ677Y435]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[user0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseThree -->
+        <test-method status="FAIL" signature="testCaseTwo(java.lang.String, java.lang.String)[pri:0, instance:com.techm.testng.DataProviderClass1@6a4f787b]" name="testCaseTwo" duration-ms="0" started-at="2015-06-19T12:54:19Z" data-provider="data1" finished-at="2015-06-19T12:54:19Z">
           <params>
             <param index="0">
               <value>
@@ -1675,39 +1687,39 @@ in C:\Selenium\workspace3\Test\TechM_TestNG_Framework\ant\build\testng-listeners
         </test-method> <!-- testCaseTwo -->
       </class> <!-- com.techm.testng.DataProviderClass1 -->
       <class name="com.techm.testng.TestNgClass">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.techm.testng.TestNgClass@7006c658]" name="beforeSuite" is-config="true" duration-ms="6" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.techm.testng.TestNgClass@2c039ac6]" name="beforeSuite" is-config="true" duration-ms="6" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.techm.testng.TestNgClass@7006c658]" name="beforeTest" is-config="true" duration-ms="1" started-at="2015-06-19T12:11:55Z" finished-at="2015-06-19T12:11:55Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.techm.testng.TestNgClass@2c039ac6]" name="beforeTest" is-config="true" duration-ms="1" started-at="2015-06-19T12:54:19Z" finished-at="2015-06-19T12:54:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClassMethod()[pri:0, instance:com.techm.testng.TestNgClass@7006c658]" name="beforeClassMethod" is-config="true" duration-ms="1" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="beforeClassMethod()[pri:0, instance:com.techm.testng.TestNgClass@2c039ac6]" name="beforeClassMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClassMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.techm.testng.TestNgClass@7006c658]" name="afterClass" is-config="true" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="f()[pri:0, instance:com.techm.testng.TestNgClass@7006c658]" name="f" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.techm.testng.TestNgClass@7006c658]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.techm.testng.TestNgClass@7006c658]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.techm.testng.TestNgClass@2c039ac6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.techm.testng.TestNgClass@7006c658]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.techm.testng.TestNgClass@2c039ac6]" name="afterClass" is-config="true" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.techm.testng.TestNgClass@2c039ac6]" name="f" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.techm.testng.TestNgClass@2c039ac6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.techm.testng.TestNgClass@2c039ac6]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.techm.testng.TestNgClass@7006c658]" name="afterSuite" is-config="true" duration-ms="0" started-at="2015-06-19T12:13:00Z" finished-at="2015-06-19T12:13:00Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.techm.testng.TestNgClass@2c039ac6]" name="afterSuite" is-config="true" duration-ms="1" started-at="2015-06-19T12:55:22Z" finished-at="2015-06-19T12:55:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

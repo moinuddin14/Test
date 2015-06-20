@@ -56,7 +56,7 @@
 		</javac>				
 	</target>
 	
-	<taskdef name="Test-Ng" classpathref="classp" classname="org.testng.TestNGAntTask">
+	<taskdef name="Test-Ng" classpathref="classp" classname="org.testng.TestNGAntTask" loaderref="${basedir}/lib/testng-6.9.4.jar">
 		<classpath>
 			<pathelement location="C:\Selenium\workspace3\Test\TechM_TestNG_Framework\src\com\lib\selenium.jar"/>
 			<pathelement location="C:\Selenium\workspace3\Test\TechM_TestNG_Framework\src\com\lib\testng-6.9.4.jar"/>
