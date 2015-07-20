@@ -25,6 +25,7 @@ public class DriverClass {
 			DriverManager.registerDriver(driver);
 			
 			System.out.println("Completed loading the driver");
+			
 			//Connect to the Database using DriverManager Class
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo", "root", "root");
 			
