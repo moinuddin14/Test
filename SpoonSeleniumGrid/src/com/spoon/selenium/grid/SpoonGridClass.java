@@ -36,7 +36,7 @@ public class SpoonGridClass {
 			cap.setCapability(InternetExplorerDriver.IE_SWITCHES, "-private");
 			cap.setCapability(InternetExplorerDriver.IE_ENSURE_CLEAN_SESSION, true);
 			cap.setBrowserName("ie");
-			cap.setCapability("version", "10");
+			cap.setCapability("version", "9");
 		} else if(browser.equals("chrome")){
 			cap = DesiredCapabilities.chrome();
 			cap.setBrowserName("chrome");

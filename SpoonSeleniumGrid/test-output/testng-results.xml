@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Spoon Selenium Grid" duration-ms="447798" started-at="2015-07-22T05:44:16Z" finished-at="2015-07-22T05:51:44Z">
+  <suite name="Spoon Selenium Grid" duration-ms="375857" started-at="2015-07-22T16:05:12Z" finished-at="2015-07-22T16:11:28Z">
     <groups>
     </groups>
-    <test name="Sanity1" duration-ms="51599" started-at="2015-07-22T05:44:16Z" finished-at="2015-07-22T05:45:08Z">
+    <test name="Sanity1" duration-ms="20113" started-at="2015-07-22T16:05:12Z" finished-at="2015-07-22T16:05:32Z">
       <class name="com.spoon.selenium.grid.SpoonGridClass">
-        <test-method status="PASS" signature="spoonTest(java.lang.String)[pri:0, instance:com.spoon.selenium.grid.SpoonGridClass@33e5ccce]" name="spoonTest" duration-ms="51554" started-at="2015-07-22T00:44:16Z" finished-at="2015-07-22T00:45:08Z">
+        <test-method status="PASS" signature="spoonTest(java.lang.String)[pri:0, instance:com.spoon.selenium.grid.SpoonGridClass@33e5ccce]" name="spoonTest" duration-ms="20097" started-at="2015-07-22T11:05:12Z" finished-at="2015-07-22T11:05:32Z">
           <params>
             <param index="0">
               <value>
@@ -20,9 +20,9 @@
         </test-method> <!-- spoonTest -->
       </class> <!-- com.spoon.selenium.grid.SpoonGridClass -->
     </test> <!-- Sanity1 -->
-    <test name="Sanity2" duration-ms="349291" started-at="2015-07-22T05:45:08Z" finished-at="2015-07-22T05:50:57Z">
+    <test name="Sanity2" duration-ms="315949" started-at="2015-07-22T16:05:32Z" finished-at="2015-07-22T16:10:48Z">
       <class name="com.spoon.selenium.grid.SpoonGridClass">
-        <test-method status="FAIL" signature="spoonTest(java.lang.String)[pri:0, instance:com.spoon.selenium.grid.SpoonGridClass@64c64813]" name="spoonTest" duration-ms="349267" started-at="2015-07-22T00:45:08Z" finished-at="2015-07-22T00:50:57Z">
+        <test-method status="FAIL" signature="spoonTest(java.lang.String)[pri:0, instance:com.spoon.selenium.grid.SpoonGridClass@64c64813]" name="spoonTest" duration-ms="315934" started-at="2015-07-22T11:05:32Z" finished-at="2015-07-22T11:10:48Z">
           <params>
             <param index="0">
               <value>
@@ -33,14 +33,14 @@
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, ie.ensureCleanSession=true, ie.browserCommandLineSwitches=-private, ie.forceCreateProcessApi=true, browserName=ie, version=10, platform=WINDOWS}]
-Command duration or timeout: 349.24 seconds
+Command duration or timeout: 315.92 seconds
 Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
 System info: host: 'Rehaan-PC', ip: '192.168.119.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, ie.ensureCleanSession=true, ie.browserCommandLineSwitches=-private, ie.forceCreateProcessApi=true, browserName=ie, version=10, platform=WINDOWS}]
-Command duration or timeout: 349.24 seconds
+Command duration or timeout: 315.92 seconds
 Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
 System info: host: 'Rehaan-PC', ip: '192.168.119.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -54,7 +54,7 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at com.spoon.selenium.grid.SpoonGridClass.spoonTest(SpoonGridClass.java:49)
+	at com.spoon.selenium.grid.SpoonGridClass.spoonTest(SpoonGridClass.java:47)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -103,9 +103,9 @@ Caused by: org.openqa.grid.common.exception.GridException: Error forwarding the 
         </test-method> <!-- spoonTest -->
       </class> <!-- com.spoon.selenium.grid.SpoonGridClass -->
     </test> <!-- Sanity2 -->
-    <test name="Sanity3" duration-ms="30484" started-at="2015-07-22T05:50:57Z" finished-at="2015-07-22T05:51:28Z">
+    <test name="Sanity3" duration-ms="32651" started-at="2015-07-22T16:10:48Z" finished-at="2015-07-22T16:11:20Z">
       <class name="com.spoon.selenium.grid.SpoonGridClass">
-        <test-method status="PASS" signature="spoonTest(java.lang.String)[pri:0, instance:com.spoon.selenium.grid.SpoonGridClass@7a92922]" name="spoonTest" duration-ms="30474" started-at="2015-07-22T00:50:57Z" finished-at="2015-07-22T00:51:28Z">
+        <test-method status="PASS" signature="spoonTest(java.lang.String)[pri:0, instance:com.spoon.selenium.grid.SpoonGridClass@7a92922]" name="spoonTest" duration-ms="32651" started-at="2015-07-22T11:10:48Z" finished-at="2015-07-22T11:11:20Z">
           <params>
             <param index="0">
               <value>
@@ -118,9 +118,9 @@ Caused by: org.openqa.grid.common.exception.GridException: Error forwarding the 
         </test-method> <!-- spoonTest -->
       </class> <!-- com.spoon.selenium.grid.SpoonGridClass -->
     </test> <!-- Sanity3 -->
-    <test name="Sanity4" duration-ms="16325" started-at="2015-07-22T05:51:28Z" finished-at="2015-07-22T05:51:44Z">
+    <test name="Sanity4" duration-ms="7096" started-at="2015-07-22T16:11:20Z" finished-at="2015-07-22T16:11:28Z">
       <class name="com.spoon.selenium.grid.SpoonGridClass">
-        <test-method status="PASS" signature="spoonTest(java.lang.String)[pri:0, instance:com.spoon.selenium.grid.SpoonGridClass@66048bfd]" name="spoonTest" duration-ms="16321" started-at="2015-07-22T00:51:28Z" finished-at="2015-07-22T00:51:44Z">
+        <test-method status="PASS" signature="spoonTest(java.lang.String)[pri:0, instance:com.spoon.selenium.grid.SpoonGridClass@66048bfd]" name="spoonTest" duration-ms="7080" started-at="2015-07-22T11:11:20Z" finished-at="2015-07-22T11:11:28Z">
           <params>
             <param index="0">
               <value>
