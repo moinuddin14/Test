@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Spoon Selenium Grid]" parallel="classes">
+  <parameter name="browser" value="firefox"/>
+  <test name="Sanity2(failed)" parallel="classes">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.spoon.selenium.grid.SpoonGridClass">
+        <methods>
+          <include name="spoonTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.spoon.selenium.grid.SpoonGridClass -->
+    </classes>
+  </test> <!-- Sanity2(failed) -->
+</suite> <!-- Failed suite [Spoon Selenium Grid] -->

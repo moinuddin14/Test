@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Spoon Selenium Grid" parallel="classes" thread-count="5">
+	<test name="Sanity1">
+	<parameter name="browser" value="firefox"></parameter>
+		
+		<classes>
+			<class name="com.spoon.selenium.grid.SpoonGridClass"></class>
+		</classes>
+		
+	</test>
+	
+	<test name="Sanity2">
+	<parameter name="browser" value="ie"></parameter>
+		<classes>
+			<class name="com.spoon.selenium.grid.SpoonGridClass"></class>
+		</classes>
+	</test>
+	
+	<test name="Sanity3">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.spoon.selenium.grid.SpoonGridClass"></class>
+		</classes>
+	</test>
+	
+	<test name="Sanity4">
+	<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.spoon.selenium.grid.SpoonGridClass"></class>
+		</classes>
+	</test>
+</suite>
