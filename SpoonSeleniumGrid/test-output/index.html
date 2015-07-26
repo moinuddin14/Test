@@ -152,8 +152,8 @@
                   </a> <!-- spoonTest(ie) -->
                   <span class="method-name">spoonTest</span>
                   <span class="parameters">(ie)</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, ie.ensureCleanSession=true, ie.browserCommandLineSwitches=-private, ie.forceCreateProcessApi=true, browserName=ie, version=10, platform=WINDOWS}]
-Command duration or timeout: 315.92 seconds
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, ie.ensureCleanSession=true, ie.browserCommandLineSwitches=-private, ie.forceCreateProcessApi=true, browserName=iexplore, ignoreProtectedModeSettings=true, version=9, platform=WINDOWS}]
+Command duration or timeout: 8.58 seconds
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
 System info: host: &apos;Rehaan-PC&apos;, ip: &apos;192.168.119.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_51&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -163,11 +163,11 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:126)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:153)
-	at com.spoon.selenium.grid.SpoonGridClass.spoonTest(SpoonGridClass.java:47)
+	at com.spoon.selenium.grid.SpoonGridClass.spoonTest(SpoonGridClass.java:56)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-Caused by: org.openqa.grid.common.exception.GridException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, ie.ensureCleanSession=true, ie.browserCommandLineSwitches=-private, ie.forceCreateProcessApi=true, browserName=ie, version=10, platform=WINDOWS}]
+Caused by: org.openqa.grid.common.exception.GridException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, ie.ensureCleanSession=true, ie.browserCommandLineSwitches=-private, ie.forceCreateProcessApi=true, browserName=iexplore, ignoreProtectedModeSettings=true, version=9, platform=WINDOWS}]
 	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:114)
 	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)
 	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:67)
@@ -316,24 +316,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'spoonTest')
 data.setCell(0, 2, 'com.spoon.selenium.grid.SpoonGridClass')
-data.setCell(0, 3, 315934);
+data.setCell(0, 3, 31033);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'spoonTest')
 data.setCell(1, 2, 'com.spoon.selenium.grid.SpoonGridClass')
-data.setCell(1, 3, 32651);
+data.setCell(1, 3, 21255);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'spoonTest')
 data.setCell(2, 2, 'com.spoon.selenium.grid.SpoonGridClass')
-data.setCell(2, 3, 20097);
+data.setCell(2, 3, 8597);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'spoonTest')
 data.setCell(3, 2, 'com.spoon.selenium.grid.SpoonGridClass')
-data.setCell(3, 3, 7080);
+data.setCell(3, 3, 7833);
 window.suiteTableData['Spoon_Selenium_Grid']= { tableData: data, tableDiv: 'times-div-Spoon_Selenium_Grid'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Spoon_Selenium_Grid">
               </div> <!-- times-div-Spoon_Selenium_Grid -->
             </div> <!-- times-div -->
@@ -368,15 +368,15 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">spoonTest(ie)</span>
-                <span class="method-start">20128 ms</span>
+                <span class="method-start">21282 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">spoonTest(chrome)</span>
-                <span class="method-start">336078 ms</span>
+                <span class="method-start">29895 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">spoonTest(firefox)</span>
-                <span class="method-start">368745 ms</span>
+                <span class="method-start">60936 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

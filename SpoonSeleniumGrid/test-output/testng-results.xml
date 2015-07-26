@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Spoon Selenium Grid" duration-ms="375857" started-at="2015-07-22T16:05:12Z" finished-at="2015-07-22T16:11:28Z">
+  <suite name="Spoon Selenium Grid" duration-ms="68783" started-at="2015-07-23T03:59:03Z" finished-at="2015-07-23T04:00:12Z">
     <groups>
     </groups>
-    <test name="Sanity1" duration-ms="20113" started-at="2015-07-22T16:05:12Z" finished-at="2015-07-22T16:05:32Z">
+    <test name="Sanity1" duration-ms="21270" started-at="2015-07-23T03:59:03Z" finished-at="2015-07-23T03:59:24Z">
       <class name="com.spoon.selenium.grid.SpoonGridClass">
-        <test-method status="PASS" signature="spoonTest(java.lang.String)[pri:0, instance:com.spoon.selenium.grid.SpoonGridClass@33e5ccce]" name="spoonTest" duration-ms="20097" started-at="2015-07-22T11:05:12Z" finished-at="2015-07-22T11:05:32Z">
+        <test-method status="PASS" signature="spoonTest(java.lang.String)[pri:0, instance:com.spoon.selenium.grid.SpoonGridClass@33e5ccce]" name="spoonTest" duration-ms="21255" started-at="2015-07-22T22:59:03Z" finished-at="2015-07-22T22:59:24Z">
           <params>
             <param index="0">
               <value>
@@ -20,9 +20,9 @@
         </test-method> <!-- spoonTest -->
       </class> <!-- com.spoon.selenium.grid.SpoonGridClass -->
     </test> <!-- Sanity1 -->
-    <test name="Sanity2" duration-ms="315949" started-at="2015-07-22T16:05:32Z" finished-at="2015-07-22T16:10:48Z">
+    <test name="Sanity2" duration-ms="8602" started-at="2015-07-23T03:59:24Z" finished-at="2015-07-23T03:59:33Z">
       <class name="com.spoon.selenium.grid.SpoonGridClass">
-        <test-method status="FAIL" signature="spoonTest(java.lang.String)[pri:0, instance:com.spoon.selenium.grid.SpoonGridClass@64c64813]" name="spoonTest" duration-ms="315934" started-at="2015-07-22T11:05:32Z" finished-at="2015-07-22T11:10:48Z">
+        <test-method status="FAIL" signature="spoonTest(java.lang.String)[pri:0, instance:com.spoon.selenium.grid.SpoonGridClass@64c64813]" name="spoonTest" duration-ms="8597" started-at="2015-07-22T22:59:24Z" finished-at="2015-07-22T22:59:33Z">
           <params>
             <param index="0">
               <value>
@@ -32,15 +32,15 @@
           </params>
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, ie.ensureCleanSession=true, ie.browserCommandLineSwitches=-private, ie.forceCreateProcessApi=true, browserName=ie, version=10, platform=WINDOWS}]
-Command duration or timeout: 315.92 seconds
+              <![CDATA[Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, ie.ensureCleanSession=true, ie.browserCommandLineSwitches=-private, ie.forceCreateProcessApi=true, browserName=iexplore, ignoreProtectedModeSettings=true, version=9, platform=WINDOWS}]
+Command duration or timeout: 8.58 seconds
 Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
 System info: host: 'Rehaan-PC', ip: '192.168.119.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, ie.ensureCleanSession=true, ie.browserCommandLineSwitches=-private, ie.forceCreateProcessApi=true, browserName=ie, version=10, platform=WINDOWS}]
-Command duration or timeout: 315.92 seconds
+              <![CDATA[org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, ie.ensureCleanSession=true, ie.browserCommandLineSwitches=-private, ie.forceCreateProcessApi=true, browserName=iexplore, ignoreProtectedModeSettings=true, version=9, platform=WINDOWS}]
+Command duration or timeout: 8.58 seconds
 Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
 System info: host: 'Rehaan-PC', ip: '192.168.119.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -54,7 +54,7 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at com.spoon.selenium.grid.SpoonGridClass.spoonTest(SpoonGridClass.java:47)
+	at com.spoon.selenium.grid.SpoonGridClass.spoonTest(SpoonGridClass.java:56)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -68,7 +68,7 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-Caused by: org.openqa.grid.common.exception.GridException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, ie.ensureCleanSession=true, ie.browserCommandLineSwitches=-private, ie.forceCreateProcessApi=true, browserName=ie, version=10, platform=WINDOWS}]
+Caused by: org.openqa.grid.common.exception.GridException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, ie.ensureCleanSession=true, ie.browserCommandLineSwitches=-private, ie.forceCreateProcessApi=true, browserName=iexplore, ignoreProtectedModeSettings=true, version=9, platform=WINDOWS}]
 	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:114)
 	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)
 	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:67)
@@ -103,9 +103,9 @@ Caused by: org.openqa.grid.common.exception.GridException: Error forwarding the 
         </test-method> <!-- spoonTest -->
       </class> <!-- com.spoon.selenium.grid.SpoonGridClass -->
     </test> <!-- Sanity2 -->
-    <test name="Sanity3" duration-ms="32651" started-at="2015-07-22T16:10:48Z" finished-at="2015-07-22T16:11:20Z">
+    <test name="Sanity3" duration-ms="31040" started-at="2015-07-23T03:59:33Z" finished-at="2015-07-23T04:00:04Z">
       <class name="com.spoon.selenium.grid.SpoonGridClass">
-        <test-method status="PASS" signature="spoonTest(java.lang.String)[pri:0, instance:com.spoon.selenium.grid.SpoonGridClass@7a92922]" name="spoonTest" duration-ms="32651" started-at="2015-07-22T11:10:48Z" finished-at="2015-07-22T11:11:20Z">
+        <test-method status="PASS" signature="spoonTest(java.lang.String)[pri:0, instance:com.spoon.selenium.grid.SpoonGridClass@7a92922]" name="spoonTest" duration-ms="31033" started-at="2015-07-22T22:59:33Z" finished-at="2015-07-22T23:00:04Z">
           <params>
             <param index="0">
               <value>
@@ -118,9 +118,9 @@ Caused by: org.openqa.grid.common.exception.GridException: Error forwarding the 
         </test-method> <!-- spoonTest -->
       </class> <!-- com.spoon.selenium.grid.SpoonGridClass -->
     </test> <!-- Sanity3 -->
-    <test name="Sanity4" duration-ms="7096" started-at="2015-07-22T16:11:20Z" finished-at="2015-07-22T16:11:28Z">
+    <test name="Sanity4" duration-ms="7834" started-at="2015-07-23T04:00:04Z" finished-at="2015-07-23T04:00:12Z">
       <class name="com.spoon.selenium.grid.SpoonGridClass">
-        <test-method status="PASS" signature="spoonTest(java.lang.String)[pri:0, instance:com.spoon.selenium.grid.SpoonGridClass@66048bfd]" name="spoonTest" duration-ms="7080" started-at="2015-07-22T11:11:20Z" finished-at="2015-07-22T11:11:28Z">
+        <test-method status="PASS" signature="spoonTest(java.lang.String)[pri:0, instance:com.spoon.selenium.grid.SpoonGridClass@66048bfd]" name="spoonTest" duration-ms="7833" started-at="2015-07-22T23:00:04Z" finished-at="2015-07-22T23:00:12Z">
           <params>
             <param index="0">
               <value>

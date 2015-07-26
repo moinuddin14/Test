@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jul 22 00:45:08 CDT 2015</td>
+<td>Started on:</td><td>Wed Jul 22 22:59:24 CDT 2015</td>
 </tr>
-<tr><td>Total time:</td><td>349 seconds (349291 ms)</td>
+<tr><td>Total time:</td><td>8 seconds (8602 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,8 +76,8 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.spoon.selenium.grid.SpoonGridClass.spoonTest()'><b>spoonTest</b><br>Test class: com.spoon.selenium.grid.SpoonGridClass<br>Parameters: ie</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, ie.ensureCleanSession=true, ie.browserCommandLineSwitches=-private, ie.forceCreateProcessApi=true, browserName=ie, version=10, platform=WINDOWS}]
-Command duration or timeout: 349.24 seconds
+<td><div><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, ie.ensureCleanSession=true, ie.browserCommandLineSwitches=-private, ie.forceCreateProcessApi=true, browserName=iexplore, ignoreProtectedModeSettings=true, version=9, platform=WINDOWS}]
+Command duration or timeout: 8.58 seconds
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
 System info: host: &apos;Rehaan-PC&apos;, ip: &apos;192.168.119.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_51&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -87,11 +87,11 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:126)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:153)
-	at com.spoon.selenium.grid.SpoonGridClass.spoonTest(SpoonGridClass.java:49)
+	at com.spoon.selenium.grid.SpoonGridClass.spoonTest(SpoonGridClass.java:56)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-Caused by: org.openqa.grid.common.exception.GridException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, ie.ensureCleanSession=true, ie.browserCommandLineSwitches=-private, ie.forceCreateProcessApi=true, browserName=ie, version=10, platform=WINDOWS}]
+Caused by: org.openqa.grid.common.exception.GridException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, ie.ensureCleanSession=true, ie.browserCommandLineSwitches=-private, ie.forceCreateProcessApi=true, browserName=iexplore, ignoreProtectedModeSettings=true, version=9, platform=WINDOWS}]
 	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:114)
 	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)
 	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:67)
@@ -118,9 +118,9 @@ Caused by: org.openqa.grid.common.exception.GridException: Error forwarding the 
 	at org.seleniumhq.jetty7.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
 	at org.seleniumhq.jetty7.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
 	... 1 more
-... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1315669860", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1315669860'><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, ie.ensureCleanSession=true, ie.browserCommandLineSwitches=-private, ie.forceCreateProcessApi=true, browserName=ie, version=10, platform=WINDOWS}]
-Command duration or timeout: 349.24 seconds
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1231958568", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1231958568'><pre>org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, ie.ensureCleanSession=true, ie.browserCommandLineSwitches=-private, ie.forceCreateProcessApi=true, browserName=iexplore, ignoreProtectedModeSettings=true, version=9, platform=WINDOWS}]
+Command duration or timeout: 8.58 seconds
 Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
 System info: host: &apos;Rehaan-PC&apos;, ip: &apos;192.168.119.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_51&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -134,7 +134,7 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:126)
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:153)
-	at com.spoon.selenium.grid.SpoonGridClass.spoonTest(SpoonGridClass.java:49)
+	at com.spoon.selenium.grid.SpoonGridClass.spoonTest(SpoonGridClass.java:56)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -148,7 +148,7 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-Caused by: org.openqa.grid.common.exception.GridException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, ie.ensureCleanSession=true, ie.browserCommandLineSwitches=-private, ie.forceCreateProcessApi=true, browserName=ie, version=10, platform=WINDOWS}]
+Caused by: org.openqa.grid.common.exception.GridException: Error forwarding the new session cannot find : Capabilities [{ensureCleanSession=true, ie.ensureCleanSession=true, ie.browserCommandLineSwitches=-private, ie.forceCreateProcessApi=true, browserName=iexplore, ignoreProtectedModeSettings=true, version=9, platform=WINDOWS}]
 	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:114)
 	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:83)
 	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:67)
@@ -176,7 +176,7 @@ Caused by: org.openqa.grid.common.exception.GridException: Error forwarding the 
 	at org.seleniumhq.jetty7.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
 	... 1 more
 </pre></div></td>
-<td>349</td>
+<td>8</td>
 <td>com.spoon.selenium.grid.SpoonGridClass@64c64813</td></tr>
 </table><p>
 </body>
